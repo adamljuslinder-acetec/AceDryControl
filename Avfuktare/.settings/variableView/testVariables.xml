@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <configuration name="Controller">
+        <resource name="POL6x8">
+            <variable instancePath="Pgm.Device.ENO"/>
+            <variable instancePath="Pgm.Device.pInitData"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData._internal_IsAutomationObject"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData._internal_IsUnit"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.InstanceName"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.DisplayName"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.SecLevelVisible"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.SecLevelWrite1"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.SecLevelWrite2"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.SecLevelWrite3"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.aoDeviceID"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.aoGroupID"/>
+            <variable instancePath="Pgm.Device.aoDevice_InstanceData.ObjectInstanceID"/>
+            <variable instancePath="Pgm.Device.DB"/>
+            <variable instancePath="Pgm.Diagnostic.ENO"/>
+            <variable instancePath="Pgm.Diagnostic.pInitData"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData._internal_IsAutomationObject"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo1"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo2"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo3"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo4"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo5"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.ApplicationInfo6"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.InstanceName"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.DisplayName"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.SecLevelVisible"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.SecLevelWrite1"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.SecLevelWrite2"/>
+            <variable instancePath="Pgm.Diagnostic.aoDiagnostic_InstanceData.SecLevelWrite3"/>
+            <variable instancePath="Pgm.Diagnostic.Reset"/>
+            <variable instancePath="Pgm.Diagnostic.DB"/>
+            <variable instancePath="Pgm.Diagnostic.ErrID"/>
+            <variable instancePath="Pgm.Diagnostic.ErrTxt"/>
+            <variable instancePath="Pgm.Diagnostic.aoType"/>
+            <variable instancePath="Pgm.Diagnostic.aoName"/>
+            <variable instancePath="Pgm.Diagnostic.StartOK"/>
+            <variable instancePath="Pgm.gReset"/>
+        </resource>
+    </configuration>
+</project>

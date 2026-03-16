@@ -1,0 +1,10 @@
+NAMESPACE OpModeSelector
+TYPE
+   DT_Config : STRUCT
+	   	Off    : UINT;
+	    Manual     : UINT;
+	    AutoRH  : UINT;
+	    AutoAH : UINT;
+   END_STRUCT;
+END_TYPE
+END_NAMESPACE

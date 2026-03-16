@@ -1,0 +1,808 @@
+FUNCTION_BLOCK aoDehumidifier
+  VAR
+    REALtoAO3 : REALtoAO;
+    aoPrFan : aoAnalogOutput;
+    LowEN : BOOL;
+    MediumEN : BOOL;
+    HighEN : BOOL;
+    OffEN : BOOL;
+    aoDriftmode : aoSetpointMultistate := (aoSetpointMultistate_InstanceData := (NumberStates := 3, StartupValue := 0, StateText := 'Stopp*Manual*AutoRH*AutoAH'));
+    REALtoAO4 : REALtoAO;
+    aoRegFan : aoAnalogOutput;
+    FORCEMRK8 : FORCEMRK;
+    FORCEMRK7 : FORCEMRK;
+    FORCEMRK6 : FORCEMRK;
+    FORCEMRK5 : FORCEMRK;
+    HtgCtl : aoLoopController := (aoLoopController_InstanceData := (InstanceName := '\C', KP := 5.0, TI := 60));
+    HeaterSetpoint : aoSetpointValueLimit := (aoSetpointValueLimit_InstanceData := (StartupValue := 15.0, InstanceName := '\C'));
+    PTNItoTemp1 : PTNItoTemp;
+    WetAirTemp : aoAnalogInput;
+    FORCEMRK4 : FORCEMRK;
+    REALtoAO : REALtoAO;
+    HtgVlv : aoAnalogOutput;
+    PTNItoTemp2 : PTNItoTemp;
+    RegAirTemp : aoAnalogInput;
+    PrAirTemp : aoAnalogInput;
+    AItoREAL1 : AItoREAL;
+    DriftModeOn : BOOL;
+    RelativeHumidity : aoAnalogInput := (aoAnalogInput_InstanceData := (EngUnit := 156, EngUnitHigh := 100, EngUnitLow := 0));
+    Rotor : aoAnalogOutput;
+    RotorRPMSetPoint : aoSetpointValue := (aoSetpointValue_InstanceData := (EngUnit := 156, EngUnitHigh := 100, EngUnitLow := 0, StartupValue := 20));
+    RHSetpoint : aoSetpointValue := (aoSetpointValue_InstanceData := (EngUnit := 156, EngUnitHigh := 100, EngUnitLow := 0, StartupValue := 60));
+    DehumidActivated : BOOL;
+    HysteresRHStart : aoSetpointValue := (aoSetpointValue_InstanceData := (DisplayName := '\i#', EngUnit := 156, EngUnitHigh := 10, EngUnitLow := 0, StartupValue := 0));
+    SR1 : SR;
+    HysteresRHStopp : aoSetpointValue := (aoSetpointValue_InstanceData := (DisplayName := '\i#', EngUnit := 156, EngUnitHigh := 10, EngUnitLow := 0, StartupValue := 4));
+    REALtoAO1 : REALtoAO;
+    AItoREAL2 : AItoREAL;
+    ABSHumidity : REAL;
+    AutoRH : BOOL;
+    Manual : BOOL;
+    AutoAH : BOOL;
+    SR2 : SR;
+    HysteresAHStopp : aoSetpointValue := (aoSetpointValue_InstanceData := (DisplayName := '\i#', EngUnit := 60, EngUnitHigh := 10, EngUnitLow := 0, StartupValue := 1));
+    HysteresAHStart : aoSetpointValue := (aoSetpointValue_InstanceData := (DisplayName := '\i#', EngUnit := 60, EngUnitHigh := 10, EngUnitLow := 0, StartupValue := 0));
+    AHSetpoint : aoSetpointValue := (aoSetpointValue_InstanceData := (EngUnit := 60, EngUnitHigh := 100, EngUnitLow := 0, StartupValue := 8));
+    aoPrFanManual : aoSetpointValue := (aoSetpointValue_InstanceData := (EngUnit := 156, EngUnitHigh := 100, EngUnitLow := 0, StartupValue := 80));
+    FB_TwoChannelSelect1 : FB_TwoChannelSelect;
+    AutoFanSignal : REAL;
+    aoRegFanManual : aoSetpointValue := (aoSetpointValue_InstanceData := (EngUnit := 156, EngUnitHigh := 100, EngUnitLow := 0, StartupValue := 80));
+    aoPrFanRegulator : aoLoopController := (aoLoopController_InstanceData := (InstanceName := '\C', KP := 5.0, TI := 60));
+    FB_ModeSelector2 : FB_ModeSelector;
+    ABSHumidity1 : ABSHumidity;
+    aoABSHumidityValue : aoAnalogValue := (aoAnalogValue_InstanceData := (EngUnit := 60, EngUnitHigh := 100, EngUnitLow := 0));
+    Fire : aoBinaryInput;
+    OpMode : aoMultistateValue := (aoMultistateValue_InstanceData := (NumberStates := 3, StateText := 'Stopp*Manual*AutoRH*AutoAH'));
+    FB_AnyTrue32 : FB_AnyTrue3;
+    StatusEval1 : StatusEval;
+    StatusEval2 : StatusEval;
+    FORCEMRK1 : FORCEMRK;
+    StatusEval3 : StatusEval;
+    FORCEMRK2 : FORCEMRK;
+  END_VAR
+  VAR_EXTERNAL
+    g_AO : DT_AO;
+    g_AI : DT_AI;
+  END_VAR
+
+  (*
+
+    // Network 1:
+    aoDriftmode();
+    TO_BOOL(IN := aoDriftmode.PrVal, TO_BOOL => @C(336).TO_BOOL);
+    Fire();
+    StatusEval3(Status := Fire.Status, Select := 0);
+    FORCEMRK2(IN := StatusEval3.OffNormal);
+    aoPrFanManual();
+    aoRegFanManual();
+    TO_INT(IN := g_AI.XI3, TO_INT => @C(129).TO_INT);
+    AItoREAL1(AE := @C(129).TO_INT, EU := 0, AU := -50, EO := 10230, AO := 50, STG := 10.0);
+    PrAirTemp(TVal := AItoREAL1.AW, TRel := g_AI.XI3rel);
+    TO_INT(IN := g_AI.XI4, TO_INT => @C(151).TO_INT);
+    AItoREAL2(AE := @C(151).TO_INT, EU := 0, AU := 0.0, EO := 10230, AO := 100.0, STG := 10.0);
+    RelativeHumidity(TVal := AItoREAL2.AW, TRel := g_AI.XI4rel);
+    MUL(IN1 := RelativeHumidity.PrVal, IN2 := 1.5, MUL => @C(139).MUL);
+    ABSHumidity1(T := PrAirTemp.PrVal, F := RelativeHumidity.PrVal, FA => ABSHumidity);
+    MUL(IN1 := ABSHumidity, IN2 := 15, MUL => @C(293).MUL);
+    aoABSHumidityValue(Val1 := ABSHumidity, Val1EN := true);
+    RHSetpoint();
+    MUL(IN1 := RHSetpoint.PrVal, IN2 := 1.5, MUL => @C(326).MUL);
+    HysteresRHStart();
+    ADD(IN1 := RHSetpoint.PrVal, IN2 := HysteresRHStart.PrVal, ADD => @C(189).ADD);
+    GT(IN1 := RelativeHumidity.PrVal, IN2 := @C(189).ADD, GT => @C(182).GT);
+    HysteresRHStopp();
+    SUB(IN1 := RHSetpoint.PrVal, IN2 := HysteresRHStopp.PrVal, SUB => @C(198).SUB);
+    LT(IN1 := RelativeHumidity.PrVal, IN2 := @C(198).SUB, LT => @C(201).LT);
+    SR1(S1 := @C(182).GT, R := @C(201).LT);
+    AHSetpoint();
+    MUL(IN1 := AHSetpoint.PrVal, IN2 := 15, MUL => @C(320).MUL);
+    HysteresAHStart();
+    ADD(IN1 := AHSetpoint.PrVal, IN2 := HysteresAHStart.PrVal, ADD => @C(243).ADD);
+    GT(IN1 := ABSHumidity, IN2 := @C(243).ADD, GT => @C(244).GT);
+    HysteresAHStopp();
+    SUB(IN1 := AHSetpoint.PrVal, IN2 := HysteresAHStopp.PrVal, SUB => @C(241).SUB);
+    LT(IN1 := ABSHumidity, IN2 := @C(241).SUB, LT => @C(240).LT);
+    SR2(S1 := @C(244).GT, R := @C(240).LT);
+    AND(IN1 := SR2.Q1, IN2 := AutoAH, AND => @C(242).AND);
+    FB_TwoChannelSelect1(EnA := AutoRH, EnB := AutoAH, A_Val1 := @C(139).MUL, A_Val2 := @C(326).MUL, B_Val1 := @C(293).MUL, B_Val2 := @C(320).MUL);
+    SUB(IN1 := FB_TwoChannelSelect1.OutVal1, IN2 := FB_TwoChannelSelect1.OutVal2, SUB => @C(22).SUB);
+    OR(IN1 := AutoRH, IN2 := AutoAH, OR => @C(299).OR);
+    aoPrFanRegulator(SPV := @C(22).SUB, PRV := 0, ENBL := @C(299).OR, High := 100, Low := 0, SQFM := true, SQFL := true);
+    AND(IN1 := SR1.Q1, IN2 := AutoRH, AND => @C(185).AND);
+    OR(IN1 := @C(185).AND, IN2 := @C(242).AND, OR => DehumidActivated);
+    FB_AnyTrue32(In1 := Manual, In2 := AutoRH, In3 := AutoAH, Out => DriftModeOn);
+    aoPrFan(Val1 := aoPrFanRegulator.AO, Val1EN := DehumidActivated, Val2 := aoPrFanManual.PrVal, Val2EN := Manual, Val5 := 0, Val5EN := OffEN);
+    REALtoAO3(EW := aoPrFan.PrVal, EU := 0.0, AU := 0, EO := 100.0, AO := 10000, STG := 10.0);
+    TO_DINT(IN := REALtoAO3.AA, TO_DINT => g_AO.XO5);
+    StatusEval1(Status := aoPrFan.Status, Select := 0);
+    aoRegFan(Val1 := aoRegFanManual.PrVal, Val1EN := DriftModeOn, Val5 := 0, Val5EN := OffEN);
+    REALtoAO4(EW := aoRegFan.PrVal, EU := 0.0, AU := 0, EO := 100.0, AO := 10000, STG := 10.0);
+    TO_DINT(IN := REALtoAO4.AA, TO_DINT => g_AO.XO6);
+    StatusEval2(Status := aoRegFan.Status, Select := 0);
+    OR(IN1 := StatusEval1.OffNormal, IN2 := StatusEval2.OffNormal, OR => @C(56).OR);
+    FORCEMRK1(IN := @C(56).OR);
+    OpMode(Val1 := aoDriftmode.PrVal, Val1EN := @C(336).TO_BOOL, Val2 := 0, Val2EN := FORCEMRK2.OUT, Val3 := 0, Val3EN := FORCEMRK1.OUT);
+    FB_ModeSelector2(OpMode := OpMode.PrVal, Off => OffEN, Manual => Manual, AutoRH => AutoRH, AutoAH => AutoAH);
+
+    // Network 2:
+    PTNItoTemp1(XI := g_AI.XI1, _Type := 1, XID := 1000);
+    WetAirTemp(TVal := PTNItoTemp1.TEMP, TRel := g_AI.XI1rel);
+    HeaterSetpoint(Low := 10.0, High := 25.0);
+    FORCEMRK5(IN := HeaterSetpoint.PrVal);
+    FORCEMRK6(IN := WetAirTemp.PrVal);
+    FORCEMRK7(IN := true);
+    FORCEMRK8(IN := 1);
+    FORCEMRK4(IN := HtgCtl.AO);
+    HtgVlv(Val1 := FORCEMRK4.OUT, Val1EN := DehumidActivated);
+    HtgCtl(SPV := FORCEMRK5.OUT, PRV := FORCEMRK6.OUT, ENBL := DriftModeOn, High := HtgVlv.High, Low := HtgVlv.Low, SQFM := FORCEMRK7.OUT, SQFL := FORCEMRK8.OUT);
+    REALtoAO(EW := HtgVlv.PrVal, EU := 0.0, AU := 0, EO := 100.0, AO := 10000, STG := 10.0);
+    TO_DINT(IN := REALtoAO.AA, TO_DINT => g_AO.XO7);
+
+    // Network 3:
+    PTNItoTemp2(XI := g_AI.XI2, _Type := 1, XID := 1000);
+    RegAirTemp(TVal := PTNItoTemp2.TEMP, TRel := g_AI.XI2rel);
+
+    // Network 4:
+    RotorRPMSetPoint();
+    Rotor(Val1 := RotorRPMSetPoint.PrVal, Val1EN := DehumidActivated, Val2 := RotorRPMSetPoint.PrVal, Val2EN := Manual);
+    REALtoAO1(EW := Rotor.PrVal, EU := 0.0, AU := 0, EO := 100.0, AO := 10000, STG := 10.0);
+    TO_DINT(IN := REALtoAO1.AA, TO_DINT => g_AO.XO8);
+
+  *)
+
+  @C(39) : @FB(REALtoAO3), instanceNameVisible, @R(850.0, 1480.0, 200.0, 138.0), @I(@N(EW), @L(9.5)), @I(@N(EU), @E(0.0), @L(29.5)), @I(@N(AU), @E(0), @L(49.5)), @I(@N(EO), @E(100.0), @L(69.5)), @I(@N(AO), @E(10000), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AA), @R(9.5)), @O(@N(OV), @R(29.5));
+  @C(30) : @FB(aoPrFan), instanceNameVisible, @R(550.0, 1440.0, 240.0, 278.0), @I(@N(TRel), @L(49.5)), @I(@N(Val1), @L(69.5)), @I(@N(Val1EN), @L(89.5)), @I(@N(Val2), @L(109.5)), @I(@N(Val2EN), @L(129.5)), @I(@N(Val3), @L(149.5)), @I(@N(Val3EN), @L(169.5)), @I(@N(Val4), @L(189.5)), @I(@N(Val4EN), @L(209.5)), @I(@N(Val5), @L(229.5)), @I(@N(Val5EN), @L(249.5)), @I(@N(Disbl), @L(269.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @C(35) : @F(TO_DINT), @R(1110.0, 1480.0, 80.0, 18.0), INT, @I(@N(IN), @L(9.5)), @O(@N(TO_DINT), @R(9.5));
+  @VF(80) : @E(0), @R(370.0, 1660.0, 140.0, 19.0), REAL;
+  @VF(82) : @E(OffEN), @R(370.0, 1680.0, 140.0, 19.0);
+  @C(43) : @FB(aoDriftmode), instanceNameVisible, @R(50.0, 300.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @VF(83) : @E(OffEN), @R(1140.0, 340.0, 140.0, 19.0);
+  @OLT(79) : @R(310.0, 300.0, 50.0, 19.0), @S(43,PrVal);
+  @CF(1) : @R(0.0, 1340.0, 460.0, 19.0), @T("Fan control"), @POU;
+  @C(2) : @FB(REALtoAO4), instanceNameVisible, @R(850.0, 1820.0, 200.0, 138.0), @I(@N(EW), @L(9.5)), @I(@N(EU), @E(0.0), @L(29.5)), @I(@N(AU), @E(0), @L(49.5)), @I(@N(EO), @E(100.0), @L(69.5)), @I(@N(AO), @E(10000), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AA), @R(9.5)), @O(@N(OV), @R(29.5));
+  @C(6) : @FB(aoRegFan), instanceNameVisible, @R(550.0, 1780.0, 240.0, 278.0), @I(@N(TRel), @L(49.5)), @I(@N(Val1), @L(69.5)), @I(@N(Val1EN), @L(89.5)), @I(@N(Val2), @L(109.5)), @I(@N(Val2EN), @L(129.5)), @I(@N(Val3), @L(149.5)), @I(@N(Val3EN), @L(169.5)), @I(@N(Val4), @L(189.5)), @I(@N(Val4EN), @L(209.5)), @I(@N(Val5), @L(229.5)), @I(@N(Val5EN), @L(249.5)), @I(@N(Disbl), @L(269.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @C(7) : @F(TO_DINT), @R(1110.0, 1820.0, 80.0, 18.0), INT, @I(@N(IN), @L(9.5)), @O(@N(TO_DINT), @R(9.5));
+  @VF(9) : @E(0), @R(370.0, 2000.0, 140.0, 19.0), REAL;
+  @VF(10) : @E(OffEN), @R(370.0, 2020.0, 140.0, 19.0);
+  @VF(13) : @E(g_AO.XO5), @R(1290.0, 1480.0, 140.0, 19.0);
+  @VF(27) : @E(g_AO.XO6), @R(1290.0, 1820.0, 140.0, 19.0);
+  @CF(41) : @R(0.0, 0.0, 1900.0, 19.0), @T("Operator mode control"), @POU;
+  @C(64) : @FB(FORCEMRK8), @R(540.0, 4380.0, 20.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(44) : @FB(FORCEMRK7), @R(400.0, 4360.0, 120.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(52) : @FB(FORCEMRK6), @R(330.0, 4260.0, 120.0, 18.0), REAL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(49) : @FB(FORCEMRK5), @R(510.0, 4180.0, 40.0, 18.0), REAL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(125) : @FB(HtgCtl), instanceNameVisible, @R(570.0, 4140.0, 240.0, 258.0), @I(@N(SPV), @L(49.5)), @I(@N(PRV), @L(69.5)), @I(@N(ERPRV), @L(89.5)), @I(@N(ENBL), @L(109.5)), @I(@N(AO_UNA), @L(129.5)), @I(@N(AFBV), @L(149.5)), @I(@N(High), @L(169.5)), @I(@N(Low), @L(189.5)), @I(@N(INV), @L(209.5)), @I(@N(SQFM), @L(229.5)), @I(@N(SQFL), @L(249.5)), @O(@N(DB), @R(9.5)), @O(@N(AO), @R(49.5)), @O(@N(SQTM), @R(69.5)), @O(@N(SQTL), @R(89.5));
+  @C(199) : @FB(HeaterSetpoint), instanceNameVisible, @R(240.0, 4140.0, 240.0, 98.0), @I(@N(Low), @E(10.0), @L(69.5)), @I(@N(High), @E(25.0), @L(89.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(46) : @FB(PTNItoTemp1), instanceNameVisible, @R(350.0, 2800.0, 200.0, 78.0), @I(@N(XI), @L(9.5)), @I(@N(_Type), @E(1), @L(29.5)), @I(@N(XID), @E(1000), @L(49.5)), @O(@N(TEMP), @R(9.5));
+  @C(117) : @FB(WetAirTemp), instanceNameVisible, @R(630.0, 2770.0, 240.0, 118.0), @I(@N(TVal), @L(49.5)), @I(@N(TRel), @L(69.5)), @I(@N(Disbl), @L(89.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @VF(172) : @E(g_AI.XI1rel), @R(0.0, 2820.0, 160.0, 19.0);
+  @VF(177) : @E(g_AI.XI1), @R(0.0, 2800.0, 160.0, 19.0);
+  @CONN(137) : @IT(HtgCtl1), @R(1180.0, 4180.0, 90.0, 19.0), REAL;
+  @CONN(146) : @IT(WetAirTemp1), @R(1210.0, 2810.0, 120.0, 19.0), REAL;
+  @CONT(138) : @IT(WetAirTemp1), @CONN(146), @R(190.0, 4260.0, 110.0, 19.0), REAL;
+  @OLT(66) : @R(520.0, 4420.0, 80.0, 39.0), @S(64);
+  @OLT(63) : @R(370.0, 4390.0, 90.0, 39.0), @S(44);
+  @OLT(61) : @R(850.0, 4200.0, 60.0, 19.0), @S(125,SQTM);
+  @OLT(55) : @R(690.0, 4090.0, 90.0, 19.0), @S(125,PRV);
+  @OLT(54) : @R(290.0, 4290.0, 100.0, 49.0), @S(52);
+  @OLT(124) : @R(820.0, 4160.0, 80.0, 19.0), @S(125,AO);
+  @OLT(48) : @R(890.0, 2870.0, 40.0, 19.0), @S(117,High);
+  @OLT(51) : @R(560.0, 4090.0, 100.0, 39.0), @S(49);
+  @OLT(50) : @R(480.0, 4110.0, 50.0, 19.0), @S(199,PrVal);
+  @OLT(53) : @R(890.0, 2850.0, 40.0, 19.0), @S(117,Low);
+  @OLT(59) : @R(80.0, 2870.0, 40.0, 19.0), @S(172);
+  @OLT(65) : @R(540.0, 2770.0, 80.0, 19.0), @S(46,TEMP);
+  @OLT(116) : @R(910.0, 2760.0, 100.0, 19.0), @S(117,PrVal);
+  @CF(68) : @R(880.0, 4230.0, 270.0, 19.0), @T("HtgCtl = Heating Control"), @POU;
+  @CF(69) : @R(0.0, 2700.0, 460.0, 39.0), @T("PrAirTemp = Process Air Temperature$NRegAirTemp = Regeneration Air Temperature"), @POU;
+  @CF(135) : @R(0.0, 2680.0, 1900.0, 19.0), @T("Temperature and Humidity Sensors"), @POU;
+  @CF(78) : @R(0.0, 4020.0, 1900.0, 19.0), @T("Heating control"), @POU;
+  @C(84) : @FB(FORCEMRK4), @R(150.0, 4710.0, 120.0, 18.0), REAL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(200) : @FB(REALtoAO), instanceNameVisible, @R(710.0, 4690.0, 200.0, 138.0), @I(@N(EW), @L(9.5)), @I(@N(EU), @E(0.0), @L(29.5)), @I(@N(AU), @E(0), @L(49.5)), @I(@N(EO), @E(100.0), @L(69.5)), @I(@N(AO), @E(10000), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AA), @R(9.5)), @O(@N(OV), @R(29.5));
+  @C(115) : @FB(HtgVlv), instanceNameVisible, @R(360.0, 4650.0, 240.0, 278.0), @I(@N(TRel), @L(49.5)), @I(@N(Val1), @L(69.5)), @I(@N(Val1EN), @L(89.5)), @I(@N(Val2), @L(109.5)), @I(@N(Val2EN), @L(129.5)), @I(@N(Val3), @L(149.5)), @I(@N(Val3EN), @L(169.5)), @I(@N(Val4), @L(189.5)), @I(@N(Val4EN), @L(209.5)), @I(@N(Val5), @L(229.5)), @I(@N(Val5EN), @L(249.5)), @I(@N(Disbl), @L(269.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @C(101) : @F(TO_DINT), @R(960.0, 4690.0, 80.0, 18.0), INT, @I(@N(IN), @L(9.5)), @O(@N(TO_DINT), @R(9.5));
+  @CONN(156) : @IT(HtgLo), @R(620.0, 4730.0, 68.0, 19.0), REAL;
+  @CONN(149) : @IT(HtgHi), @R(620.0, 4750.0, 68.0, 19.0), REAL;
+  @OLT(114) : @R(610.0, 4670.0, 66.0, 19.0), @S(115,PrVal);
+  @OLT(100) : @R(1030.0, 4650.0, 50.0, 19.0), @S(101,TO_DINT);
+  @OLT(86) : @R(150.0, 4770.0, 100.0, 39.0), @S(84);
+  @CF(89) : @R(10.0, 4600.0, 270.0, 29.0), @T("HtgVlv = Heating Valve"), @POU;
+  @VF(60) : @E(g_AO.XO7), @R(1140.0, 4690.0, 140.0, 19.0);
+  @C(99) : @FB(PTNItoTemp2), instanceNameVisible, @R(340.0, 3010.0, 200.0, 78.0), @I(@N(XI), @L(9.5)), @I(@N(_Type), @E(1), @L(29.5)), @I(@N(XID), @E(1000), @L(49.5)), @O(@N(TEMP), @R(9.5));
+  @C(102) : @FB(RegAirTemp), instanceNameVisible, @R(630.0, 2980.0, 240.0, 118.0), @I(@N(TVal), @L(49.5)), @I(@N(TRel), @L(69.5)), @I(@N(Disbl), @L(89.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @VF(103) : @E(g_AI.XI2rel), @R(0.0, 3030.0, 160.0, 19.0);
+  @VF(104) : @E(g_AI.XI2), @R(0.0, 3010.0, 160.0, 19.0);
+  @CONN(105) : @IT(RegAirTemp1), @R(1210.0, 3020.0, 120.0, 19.0), REAL;
+  @OLT(106) : @R(900.0, 3080.0, 40.0, 19.0), @S(102,High);
+  @OLT(107) : @R(900.0, 3060.0, 40.0, 19.0), @S(102,Low);
+  @OLT(108) : @R(530.0, 2980.0, 90.0, 19.0), @S(99,TEMP);
+  @OLT(109) : @R(920.0, 2970.0, 100.0, 19.0), @S(102,PrVal);
+  @OLT(110) : @R(80.0, 3080.0, 40.0, 19.0), @S(103);
+  @C(120) : @FB(PrAirTemp), instanceNameVisible, @R(660.0, 3220.0, 240.0, 118.0), @I(@N(TVal), @L(49.5)), @I(@N(TRel), @L(69.5)), @I(@N(Disbl), @L(89.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @VF(121) : @E(g_AI.XI3), @R(0.0, 3260.0, 160.0, 19.0);
+  @VF(122) : @E(g_AI.XI3rel), @R(0.0, 3400.0, 160.0, 19.0);
+  @C(123) : @FB(AItoREAL1), instanceNameVisible, @R(420.0, 3260.0, 200.0, 138.0), @I(@N(AE), @L(9.5)), @I(@N(EU), @E(0), @L(29.5)), @I(@N(AU), @E(-50), @L(49.5)), @I(@N(EO), @E(10230), @L(69.5)), @I(@N(AO), @E(50), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AW), @R(9.5)), @O(@N(STOE), @R(29.5));
+  @C(129) : @F(TO_INT), @R(220.0, 3260.0, 120.0, 18.0), DINT, @I(@N(IN), @L(9.5)), @O(@N(TO_INT), @R(9.5));
+  @CONN(132) : @IT(PrAirTemp1), @R(1210.0, 3260.0, 120.0, 19.0), REAL;
+  @VF(134) : @E(1), @R(490.0, 4380.0, 30.0, 19.0), BOOL;
+  @VF(147) : @E(DriftModeOn), @R(450.0, 4240.0, 100.0, 19.0);
+  @C(111) : @FB(RelativeHumidity), instanceNameVisible, @R(810.0, 3450.0, 240.0, 118.0), @I(@N(TVal), @L(49.5)), @I(@N(TRel), @L(69.5)), @I(@N(Disbl), @L(89.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @C(151) : @F(TO_INT), @R(210.0, 3490.0, 120.0, 18.0), DINT, @I(@N(IN), @L(9.5)), @O(@N(TO_INT), @R(9.5));
+  @VF(152) : @E(g_AI.XI4rel), @R(0.0, 3710.0, 160.0, 19.0);
+  @VF(153) : @E(g_AI.XI4), @R(0.0, 3490.0, 160.0, 19.0);
+  @CONN(154) : @IT(RH), @R(1210.0, 3490.0, 120.0, 19.0), REAL;
+  @OLT(161) : @R(1280.0, 3210.0, 90.0, 19.0), @S(132);
+  @OLT(162) : @R(1290.0, 3450.0, 90.0, 19.0), @S(154);
+  @OLT(163) : @R(1290.0, 2980.0, 90.0, 19.0), @S(105);
+  @OLT(164) : @R(1300.0, 2770.0, 90.0, 19.0), @S(146);
+  @CONT(45) : @IT(HtgCtl1), @CONN(137), @R(0.0, 4710.0, 90.0, 19.0), REAL;
+  @CONT(131) : @IT(HtgLo), @CONN(156), @R(410.0, 4320.0, 68.0, 19.0), REAL;
+  @CONT(165) : @IT(HtgHi), @CONN(149), @R(410.0, 4300.0, 68.0, 19.0), REAL;
+  @OLT(169) : @R(1200.0, 4640.0, 50.0, 19.0), @S(60);
+  @C(170) : @FB(Rotor), instanceNameVisible, @R(610.0, 5450.0, 240.0, 138.0), @I(@N(TRel), @L(49.5)), @I(@N(Val1), @L(69.5)), @I(@N(Val1EN), @L(89.5)), @I(@N(Val2), @L(109.5)), @I(@N(Val2EN), @L(129.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5)), @O(@N(Low), @R(89.5)), @O(@N(High), @R(109.5));
+  @C(171) : @FB(RotorRPMSetPoint), instanceNameVisible, @R(110.0, 5470.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @CF(176) : @R(0.0, 6700.0, 1900.0, 19.0), @T("Humidity Control"), @POU;
+  @CF(178) : @R(0.0, 5360.0, 1900.0, 19.0), @T("Rotor Control"), @POU;
+  @CONT(180) : @IT(RH), @CONN(154), @R(460.0, 6930.0, 60.0, 19.0), REAL;
+  @C(181) : @FB(RHSetpoint), instanceNameVisible, @R(30.0, 6840.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(182) : @F(GT), @R(540.0, 6930.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(GT), @R(9.5));
+  @C(185) : @F(AND), @R(840.0, 6980.0, 40.0, 38.0), BOOL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(AND), @R(9.5));
+  @VF(174) : @E(DehumidActivated), @R(370.0, 5530.0, 150.0, 19.0);
+  @C(189) : @F(ADD), @R(380.0, 6950.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(ADD), @R(9.5));
+  @C(191) : @FB(HysteresRHStart), instanceNameVisible, @R(30.0, 6930.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(194) : @FB(SR1), @R(630.0, 6980.0, 80.0, 38.0), @I(@N(S1), @L(9.5)), @I(@N(R), @L(29.5)), @O(@N(Q1), @R(9.5));
+  @C(197) : @FB(HysteresRHStopp), instanceNameVisible, @R(30.0, 7060.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @CONT(202) : @IT(RH), @CONN(154), @R(460.0, 7060.0, 60.0, 19.0), REAL;
+  @C(198) : @F(SUB), @R(380.0, 7080.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(SUB), @R(9.5));
+  @C(201) : @F(LT), @R(540.0, 7060.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(LT), @R(9.5));
+  @VF(208) : @E(g_AO.XO8), @R(1330.0, 5490.0, 140.0, 19.0);
+  @C(209) : @F(TO_DINT), @R(1180.0, 5490.0, 70.0, 18.0), INT, @I(@N(IN), @L(9.5)), @O(@N(TO_DINT), @R(9.5));
+  @VF(167) : @E(DehumidActivated), @R(0.0, 4730.0, 150.0, 19.0);
+  @OLT(212) : @R(1360.0, 5440.0, 140.0, 19.0), @S(208);
+  @OLT(215) : @R(860.0, 1420.0, 140.0, 19.0), @S(30,PrVal);
+  @OLT(216) : @R(1380.0, 1420.0, 140.0, 19.0), @S(13);
+  @OLT(217) : @R(150.0, 2970.0, 120.0, 19.0), @S(104);
+  @C(222) : @FB(REALtoAO1), instanceNameVisible, @R(930.0, 5490.0, 200.0, 138.0), @I(@N(EW), @L(9.5)), @I(@N(EU), @E(0.0), @L(29.5)), @I(@N(AU), @E(0), @L(49.5)), @I(@N(EO), @E(100.0), @L(69.5)), @I(@N(AO), @E(10000), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AA), @R(9.5)), @O(@N(OV), @R(29.5));
+  @OLT(224) : @R(880.0, 5440.0, 140.0, 19.0), @S(170,PrVal);
+  @OLT(225) : @R(1130.0, 5430.0, 140.0, 19.0), @S(222,AA);
+  @C(150) : @FB(AItoREAL2), instanceNameVisible, @R(370.0, 3490.0, 200.0, 138.0), @I(@N(AE), @L(9.5)), @I(@N(EU), @E(0), @L(29.5)), @I(@N(AU), @E(0.0), @L(49.5)), @I(@N(EO), @E(10230), @L(69.5)), @I(@N(AO), @E(100.0), @L(89.5)), @I(@N(STG), @E(10.0), @L(109.5)), @O(@N(AW), @R(9.5)), @O(@N(STOE), @R(29.5));
+  @OLT(218) : @R(130.0, 3450.0, 140.0, 19.0), @S(153);
+  @OLT(219) : @R(510.0, 3450.0, 140.0, 19.0), @S(150,AW);
+  @VF(203) : @E(true), @R(220.0, 4360.0, 120.0, 19.0), BOOL;
+  @VF(37) : @E(Manual), @R(1140.0, 360.0, 140.0, 19.0);
+  @VF(85) : @E(AutoAH), @R(1140.0, 400.0, 140.0, 19.0);
+  @VF(29) : @E(AutoRH), @R(1140.0, 380.0, 140.0, 19.0);
+  @C(234) : @FB(SR2), @R(660.0, 7480.0, 80.0, 38.0), @I(@N(S1), @L(9.5)), @I(@N(R), @L(29.5)), @O(@N(Q1), @R(9.5));
+  @C(236) : @FB(HysteresAHStopp), instanceNameVisible, @R(30.0, 7570.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(237) : @FB(HysteresAHStart), instanceNameVisible, @R(30.0, 7420.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(238) : @FB(AHSetpoint), instanceNameVisible, @R(30.0, 7330.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @C(240) : @F(LT), @R(570.0, 7570.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(LT), @R(9.5));
+  @C(241) : @F(SUB), @R(390.0, 7590.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(SUB), @R(9.5));
+  @C(242) : @F(AND), @R(870.0, 7480.0, 40.0, 38.0), BOOL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(AND), @R(9.5));
+  @C(243) : @F(ADD), @R(390.0, 7440.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(ADD), @R(9.5));
+  @C(244) : @F(GT), @R(570.0, 7420.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(GT), @R(9.5));
+  @VF(248) : @E(ABSHumidity), @R(440.0, 7420.0, 110.0, 19.0);
+  @VF(245) : @E(AutoAH), @R(760.0, 7500.0, 80.0, 19.0);
+  @VF(179) : @E(AutoRH), @R(730.0, 7000.0, 80.0, 19.0);
+  @C(267) : @FB(aoPrFanManual), instanceNameVisible, @R(90.0, 1550.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @CONT(270) : @IT(RH), @CONN(154), @R(40.0, 2220.0, 60.0, 19.0), REAL;
+  @CONN(184) : @IT(RHBV), @R(380.0, 6840.0, 60.0, 19.0), REAL;
+  @CONT(273) : @IT(RHBV), @CONN(184), @R(40.0, 2260.0, 60.0, 19.0), REAL;
+  @VF(279) : @E(true), @R(770.0, 2420.0, 50.0, 19.0);
+  @VF(281) : @E(true), @R(770.0, 2440.0, 50.0, 19.0);
+  @VF(276) : @E(AutoRH), @R(20.0, 2150.0, 80.0, 19.0);
+  @VF(278) : @E(AutoAH), @R(20.0, 2170.0, 80.0, 19.0);
+  @VF(285) : @E(ABSHumidity), @R(0.0, 2320.0, 110.0, 19.0);
+  @VF(247) : @E(ABSHumidity), @R(440.0, 7570.0, 110.0, 19.0);
+  @CONN(287) : @IT(AHBV), @R(360.0, 7340.0, 60.0, 19.0), REAL;
+  @CONT(261) : @IT(AHBV), @CONN(287), @R(50.0, 2360.0, 60.0, 19.0), REAL;
+  @C(288) : @FB(FB_TwoChannelSelect1), @R(240.0, 2240.0, 260.0, 128.0), @I(@N(EnA), @L(9.5)), @I(@N(EnB), @L(29.5)), @I(@N(A_Val1), @L(49.5)), @I(@N(A_Val2), @L(69.5)), @I(@N(B_Val1), @L(89.5)), @I(@N(B_Val2), @L(109.5)), @O(@N(OutVal1), @R(9.5)), @O(@N(OutVal2), @R(29.5));
+  @VF(283) : @E(AutoRH), @R(660.0, 2300.0, 80.0, 19.0);
+  @C(299) : @F(OR), @R(780.0, 2300.0, 40.0, 38.0), BOOL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(OR), @R(9.5));
+  @CONN(31) : @IT(AutoPrFanSig), @R(1230.0, 2240.0, 120.0, 19.0), REAL;
+  @CONT(33) : @IT(AutoPrFanSig), @CONN(31), @R(180.0, 1500.0, 150.0, 19.0), REAL;
+  @VF(42) : @E(DehumidActivated), @R(180.0, 1520.0, 150.0, 19.0);
+  @VF(93) : @E(Manual), @R(190.0, 1610.0, 140.0, 19.0);
+  @C(3) : @FB(aoRegFanManual), instanceNameVisible, @R(130.0, 1800.0, 240.0, 58.0), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5));
+  @VF(5) : @E(DriftModeOn), @R(230.0, 1860.0, 140.0, 19.0);
+  @OLT(25) : @R(480.0, 2170.0, 90.0, 19.0), @S(288,OutVal1);
+  @OLT(57) : @R(480.0, 2190.0, 90.0, 19.0), @S(288,OutVal2);
+  @VF(58) : @E(0), @R(770.0, 2380.0, 50.0, 19.0), REAL;
+  @VF(95) : @E(100), @R(770.0, 2360.0, 50.0, 19.0), REAL;
+  @OLT(303) : @R(1280.0, 2200.0, 70.0, 19.0), @S(31);
+  @C(308) : @FB(aoPrFanRegulator), instanceNameVisible, @R(870.0, 2200.0, 240.0, 258.0), @I(@N(SPV), @L(49.5)), @I(@N(PRV), @L(69.5)), @I(@N(ERPRV), @L(89.5)), @I(@N(ENBL), @L(109.5)), @I(@N(AO_UNA), @L(129.5)), @I(@N(AFBV), @L(149.5)), @I(@N(High), @L(169.5)), @I(@N(Low), @L(189.5)), @I(@N(INV), @L(209.5)), @I(@N(SQFM), @L(229.5)), @I(@N(SQFL), @L(249.5)), @O(@N(DB), @R(9.5)), @O(@N(AO), @R(49.5)), @O(@N(SQTM), @R(69.5)), @O(@N(SQTL), @R(89.5));
+  @VF(295) : @E(Manual), @R(440.0, 5570.0, 80.0, 19.0);
+  @C(22) : @F(SUB), @R(610.0, 2240.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(SUB), @R(9.5));
+  @VF(264) : @E(0), @R(770.0, 2260.0, 50.0, 19.0), REAL;
+  @VF(266) : @E(AutoAH), @R(660.0, 2320.0, 80.0, 19.0);
+  @CF(301) : @R(1140.0, 2310.0, 570.0, 199.0), @T("Finns ingen hysteres$N$NK$f6r till diffen $e4r 0 sen stannar den, startar direkt diffen g$e5r $f6ver 0$N$NFinns det n$e5got minsta till$e5tna v$e4rde man vill k$f6ra fl$e4kten?$N$NKan det vara smart att ha en sp$e4rr h$e4r vid 20% styrsignal exempelvis (alltig under 20 blir ignorerat)"), @POU;
+  @C(305) : @FB(FB_ModeSelector2), @R(840.0, 340.0, 210.0, 78.0), @I(@N(OpMode), @L(9.5)), @O(@N(Off), @R(9.5)), @O(@N(Manual), @R(29.5)), @O(@N(AutoRH), @R(49.5)), @O(@N(AutoAH), @R(69.5));
+  @VF(88) : @E(DehumidActivated), @R(1240.0, 7220.0, 140.0, 19.0);
+  @C(188) : @F(OR), @R(1120.0, 7220.0, 40.0, 38.0), BOOL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(OR), @R(9.5));
+  @OLT(306) : @R(420.0, 6790.0, 140.0, 19.0), @S(184);
+  @OLT(307) : @R(510.0, 6880.0, 140.0, 19.0), @S(180);
+  @OLT(309) : @R(390.0, 7290.0, 140.0, 19.0), @S(287);
+  @OLT(310) : @R(530.0, 7370.0, 140.0, 19.0), @S(248);
+  @CF(311) : @R(1470.0, 3250.0, 230.0, 139.0), @T("M$e5ste $e4ndra skalningen f$f6r n$e5gon av dessa$N$NPrTemp $e4r h$f6gre * 10,23"), @POU;
+  @C(73) : @FB(ABSHumidity1), @R(300.0, 3830.0, 120.0, 38.0), @I(@N(T), @L(9.5)), @I(@N(F), @L(29.5)), @O(@N(FA), @R(9.5));
+  @VF(235) : @E(ABSHumidity), @R(510.0, 3830.0, 140.0, 19.0);
+  @CONT(227) : @IT(PrAirTemp1), @CONN(132), @R(90.0, 3820.0, 120.0, 19.0), REAL;
+  @CONT(226) : @IT(RH), @CONN(154), @R(90.0, 3860.0, 120.0, 19.0), REAL;
+  @C(318) : @FB(aoABSHumidityValue), instanceNameVisible, @R(810.0, 3790.0, 240.0, 78.0), @I(@N(Val1), @L(49.5)), @I(@N(Val1EN), @L(69.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5));
+  @VF(317) : @E(true), @R(700.0, 3850.0, 70.0, 19.0);
+  @C(293) : @F(MUL), @R(120.0, 2320.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(MUL), @R(9.5));
+  @VF(142) : @E(15), @R(60.0, 2340.0, 50.0, 19.0), REAL;
+  @C(320) : @F(MUL), @R(120.0, 2360.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(MUL), @R(9.5));
+  @VF(321) : @E(15), @R(60.0, 2380.0, 50.0, 19.0), REAL;
+  @C(139) : @F(MUL), @R(120.0, 2220.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(MUL), @R(9.5));
+  @VF(298) : @E(1.5), @R(50.0, 2240.0, 50.0, 19.0), REAL;
+  @C(326) : @F(MUL), @R(120.0, 2260.0, 40.0, 38.0), REAL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(MUL), @R(9.5));
+  @VF(327) : @E(1.5), @R(50.0, 2280.0, 50.0, 19.0), REAL;
+  @CF(312) : @R(160.0, 2410.0, 480.0, 259.0), @T("M$e5ste g$f6ra n$e5got $e5t skalningen h$e4r$N$NExempelvis $N30%RHBV-20%RH = 10 SPV$N5AHBV-4AH = 1 SPV$N$NVilket resulterar i v$e4ldigt l$e5g fl$e4kthastighet f$f6r AH$N$NNu g$f6r skalningen s$e5 att det blir s$e5h$e4r:$N45 - 30 = 15 SPV$N125 - 100 = 15 SPV$N"), @POU;
+  @OLT(313) : @R(1120.0, 3790.0, 140.0, 19.0), @S(318,PrVal);
+  @C(314) : @FB(Fire), instanceNameVisible, @R(110.0, 640.0, 240.0, 78.0), @I(@N(TVal), @L(49.5)), @I(@N(TRel), @L(69.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5));
+  @C(333) : @FB(OpMode), instanceNameVisible, @R(460.0, 300.0, 240.0, 258.0), @I(@N(Val1), @L(49.5)), @I(@N(Val1EN), @L(69.5)), @I(@N(Val2), @L(89.5)), @I(@N(Val2EN), @L(109.5)), @I(@N(Val3), @L(129.5)), @I(@N(Val3EN), @L(149.5)), @I(@N(Val4), @L(169.5)), @I(@N(Val4EN), @L(189.5)), @I(@N(Val5), @L(209.5)), @I(@N(Val5EN), @L(229.5)), @I(@N(Disbl), @L(249.5)), @O(@N(DB), @R(9.5)), @O(@N(PrVal), @R(49.5)), @O(@N(Status), @R(69.5));
+  @C(336) : @F(TO_BOOL), @R(360.0, 360.0, 60.0, 18.0), UINT, @I(@N(IN), @L(9.5)), @O(@N(TO_BOOL), @R(9.5));
+  @CONN(338) : @IT(FireAlarm), @R(800.0, 740.0, 100.0, 19.0), BOOL;
+  @CONT(340) : @IT(FireAlarm), @CONN(338), @R(300.0, 400.0, 90.0, 19.0), BOOL;
+  @VF(342) : @E(0), @R(370.0, 380.0, 20.0, 19.0), UINT;
+  @VF(344) : @E(0), @R(370.0, 420.0, 20.0, 19.0), UINT;
+  @C(346) : @FB(FB_AnyTrue32), @R(1360.0, 360.0, 160.0, 58.0), @I(@N(In1), @L(9.5)), @I(@N(In2), @L(29.5)), @I(@N(In3), @L(49.5)), @O(@N(Out), @R(9.5));
+  @VF(144) : @E(DriftModeOn), @R(1560.0, 360.0, 140.0, 19.0);
+  @C(18) : @FB(StatusEval1), @R(1250.0, 1690.0, 220.0, 58.0), @I(@N(Status), @L(9.5)), @I(@N(Select), @E(0), @L(29.5)), @O(@N(Fault), @R(9.5)), @O(@N(MultiFault), @R(29.5)), @O(@N(OffNormal), @R(49.5));
+  @C(20) : @FB(StatusEval2), @R(1250.0, 2030.0, 220.0, 58.0), @I(@N(Status), @L(9.5)), @I(@N(Select), @E(0), @L(29.5)), @O(@N(Fault), @R(9.5)), @O(@N(MultiFault), @R(29.5)), @O(@N(OffNormal), @R(49.5));
+  @C(56) : @F(OR), @R(1520.0, 1880.0, 40.0, 38.0), BOOL, @I(@N(IN1), @L(9.5)), @I(@N(IN2), @L(29.5)), @O(@N(OR), @R(9.5));
+  @CONN(331) : @IT(FanAlarm), @R(1660.0, 1880.0, 90.0, 19.0), BOOL;
+  @CONT(334) : @IT(FanAlarm), @CONN(331), @R(300.0, 440.0, 90.0, 19.0), BOOL;
+  @C(350) : @FB(FORCEMRK1), @R(1590.0, 1880.0, 30.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @OLT(352) : @R(1580.0, 1810.0, 100.0, 39.0), @S(350);
+  @C(339) : @FB(StatusEval3), @R(430.0, 700.0, 220.0, 58.0), @I(@N(Status), @L(9.5)), @I(@N(Select), @E(0), @L(29.5)), @O(@N(Fault), @R(9.5)), @O(@N(MultiFault), @R(29.5)), @O(@N(OffNormal), @R(49.5));
+  @C(355) : @FB(FORCEMRK2), @R(710.0, 740.0, 30.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @OLT(357) : @R(730.0, 670.0, 100.0, 39.0), @S(355);
+  @OLT(358) : @R(380.0, 660.0, 140.0, 19.0), @S(314,Status);
+  @OLT(359) : @R(910.0, 1450.0, 140.0, 19.0), @S(30,Status);
+  @OLT(360) : @R(830.0, 1780.0, 140.0, 19.0), @S(6,Status);
+  @CP(221) : 560.0, 4269.5;
+  @CP(230) : 490.0, 4189.5;
+  @CP(271) : 349.5, 6889.5;
+  @CP(286) : 349.5, 7379.5;
+  @CP(304) : 559.5, 5519.5;
+  @CP(196) : 349.5, 6959.5;
+  @CP(213) : 349.5, 7449.5;
+  @CP(15) : 319.5, 349.5;
+
+  @G(36) :
+     @L(@C(30).PrVal, @C(39).EW)
+    ;
+  @G(98) :
+     @L(@C(39).AA, @C(35).IN)
+    ;
+  @G(21) :
+     @L(@C(6).PrVal, @C(2).EW)
+    ;
+  @G(23) :
+     @L(@C(2).AA, @C(7).IN)
+    ;
+  @G(26) :
+     @L(@C(35).TO_DINT, @VF(13).i)
+    ;
+  @G(14) :
+     @L(@C(7).TO_DINT, @VF(27).i)
+    ;
+  @G(70) :
+     @L(@C(44).OUT, @C(125).SQFM)
+    ;
+  @G(71) :
+     @L(@C(64).OUT, @C(125).SQFL)
+    ;
+  @G(72) :
+     @L(@C(52).OUT, @CP(221)),
+     @L(@CP(221), @C(125).PRV)
+    ;
+  @G(220) :
+     @L(@CONT(138).o, @C(52).IN)
+    ;
+  @G(229) :
+     @L(@C(199).PrVal, @CP(230)),
+     @L(@CP(230), @C(49).IN)
+    ;
+  @G(275) :
+     @L(@C(125).AO, @CONN(137).i)
+    ;
+  @G(74) :
+     @L(@C(49).OUT, @C(125).SPV)
+    ;
+  @G(255) :
+     @L(@VF(172).o, @C(117).TRel)
+    ;
+  @G(272) :
+     @L(@C(117).PrVal, @CONN(146).i)
+    ;
+  @G(75) :
+     @L(@VF(177).o, @C(46).XI)
+    ;
+  @G(77) :
+     @L(@C(46).TEMP, @C(117).TVal)
+    ;
+  @G(233) :
+     @L(@C(115).PrVal, @C(200).EW)
+    ;
+  @G(90) :
+     @L(@C(84).OUT, @C(115).Val1)
+    ;
+  @G(239) :
+     @L(@C(200).AA, @C(101).IN)
+    ;
+  @G(274) :
+     @L(@C(115).High, @CONN(149).i)
+    ;
+  @G(277) :
+     @L(@C(115).Low, @CONN(156).i)
+    ;
+  @G(62) :
+     @L(@C(101).TO_DINT, @VF(60).i)
+    ;
+  @G(112) :
+     @L(@C(102).PrVal, @CONN(105).i)
+    ;
+  @G(113) :
+     @L(@C(99).TEMP, @C(102).TVal)
+    ;
+  @G(118) :
+     @L(@VF(103).o, @C(102).TRel)
+    ;
+  @G(119) :
+     @L(@VF(104).o, @C(99).XI)
+    ;
+  @G(127) :
+     @L(@VF(122).o, @C(120).TRel)
+    ;
+  @G(128) :
+     @L(@C(123).AW, @C(120).TVal)
+    ;
+  @G(126) :
+     @L(@VF(121).o, @C(129).IN)
+    ;
+  @G(130) :
+     @L(@C(129).TO_INT, @C(123).AE)
+    ;
+  @G(133) :
+     @L(@C(120).PrVal, @CONN(132).i)
+    ;
+  @G(136) :
+     @L(@VF(134).o, @C(64).IN)
+    ;
+  @G(148) :
+     @L(@VF(147).o, @C(125).ENBL)
+    ;
+  @G(155) :
+     @L(@C(111).PrVal, @CONN(154).i)
+    ;
+  @G(159) :
+     @L(@VF(152).o, @C(111).TRel)
+    ;
+  @G(160) :
+     @L(@VF(153).o, @C(151).IN)
+    ;
+  @G(67) :
+     @L(@CONT(45).o, @C(84).IN)
+    ;
+  @G(141) :
+     @L(@CONT(131).o, @C(125).Low)
+    ;
+  @G(166) :
+     @L(@CONT(165).o, @C(125).High)
+    ;
+  @G(183) :
+     @L(@CONT(180).o, @C(182).IN1)
+    ;
+  @G(175) :
+     @L(@VF(174).o, @C(170).Val1EN)
+    ;
+  @G(192) :
+     @L(@C(191).PrVal, @C(189).IN2)
+    ;
+  @G(193) :
+     @L(@C(189).ADD, @C(182).IN2)
+    ;
+  @G(186) :
+     @L(@C(182).GT, @C(194).S1)
+    ;
+  @G(195) :
+     @L(@C(194).Q1, @C(185).IN1)
+    ;
+  @G(204) :
+     @L(@C(197).PrVal, @C(198).IN2)
+    ;
+  @G(205) :
+     @L(@C(198).SUB, @C(201).IN2)
+    ;
+  @G(206) :
+     @L(@CONT(202).o, @C(201).IN1)
+    ;
+  @G(207) :
+     @L(@C(201).LT, @C(194).R)
+    ;
+  @G(168) :
+     @L(@VF(167).o, @C(115).Val1EN)
+    ;
+  @G(210) :
+     @L(@C(170).PrVal, @C(222).EW)
+    ;
+  @G(211) :
+     @L(@C(222).AA, @C(209).IN)
+    ;
+  @G(223) :
+     @L(@C(209).TO_DINT, @VF(208).i)
+    ;
+  @G(157) :
+     @L(@C(151).TO_INT, @C(150).AE)
+    ;
+  @G(158) :
+     @L(@C(150).AW, @C(111).TVal)
+    ;
+  @G(47) :
+     @L(@VF(203).o, @C(44).IN)
+    ;
+  @G(252) :
+     @L(@C(241).SUB, @C(240).IN2)
+    ;
+  @G(253) :
+     @L(@C(236).PrVal, @C(241).IN2)
+    ;
+  @G(257) :
+     @L(@C(234).Q1, @C(242).IN1)
+    ;
+  @G(259) :
+     @L(@C(240).LT, @C(234).R)
+    ;
+  @G(260) :
+     @L(@C(237).PrVal, @C(243).IN2)
+    ;
+  @G(262) :
+     @L(@C(243).ADD, @C(244).IN2)
+    ;
+  @G(263) :
+     @L(@C(244).GT, @C(234).S1)
+    ;
+  @G(250) :
+     @L(@VF(248).o, @C(244).IN1)
+    ;
+  @G(254) :
+     @L(@VF(245).o, @C(242).IN2)
+    ;
+  @G(187) :
+     @L(@VF(179).o, @C(185).IN2)
+    ;
+  @G(81) :
+     @L(@VF(80).o, @C(30).Val5)
+    ;
+  @G(91) :
+     @L(@VF(82).o, @C(30).Val5EN)
+    ;
+  @G(269) :
+     @L(@C(181).PrVal, @CP(271)),
+     @L(@CP(271), @CONN(184).i),
+     @L(@CP(271), @CP(196)),
+     @L(@CP(196), @C(189).IN1),
+     @L(@CP(196), @C(198).IN1)
+    ;
+  @G(249) :
+     @L(@VF(247).o, @C(240).IN1)
+    ;
+  @G(258) :
+     @L(@C(238).PrVal, @CP(286)),
+     @L(@CP(286), @CONN(287).i),
+     @L(@CP(286), @CP(213)),
+     @L(@CP(213), @C(243).IN1),
+     @L(@CP(213), @C(241).IN1)
+    ;
+  @G(289) :
+     @L(@VF(276).o, @C(288).EnA)
+    ;
+  @G(290) :
+     @L(@VF(278).o, @C(288).EnB)
+    ;
+  @G(302) :
+     @L(@VF(283).o, @C(299).IN1)
+    ;
+  @G(34) :
+     @L(@CONT(33).o, @C(30).Val1)
+    ;
+  @G(76) :
+     @L(@VF(42).o, @C(30).Val1EN)
+    ;
+  @G(92) :
+     @L(@C(267).PrVal, @C(30).Val2)
+    ;
+  @G(94) :
+     @L(@VF(93).o, @C(30).Val2EN)
+    ;
+  @G(4) :
+     @L(@C(3).PrVal, @C(6).Val1)
+    ;
+  @G(8) :
+     @L(@VF(5).o, @C(6).Val1EN)
+    ;
+  @G(96) :
+     @L(@C(299).OR, @C(308).ENBL)
+    ;
+  @G(97) :
+     @L(@VF(95).o, @C(308).High)
+    ;
+  @G(268) :
+     @L(@VF(58).o, @C(308).Low)
+    ;
+  @G(280) :
+     @L(@VF(279).o, @C(308).SQFM)
+    ;
+  @G(282) :
+     @L(@VF(281).o, @C(308).SQFL)
+    ;
+  @G(300) :
+     @L(@VF(295).o, @C(170).Val2EN)
+    ;
+  @G(173) :
+     @L(@C(171).PrVal, @CP(304)),
+     @L(@CP(304), @C(170).Val1),
+     @L(@CP(304), @C(170).Val2)
+    ;
+  @G(16) :
+     @L(@VF(9).o, @C(6).Val5)
+    ;
+  @G(17) :
+     @L(@VF(10).o, @C(6).Val5EN)
+    ;
+  @G(32) :
+     @L(@C(288).OutVal1, @C(22).IN1)
+    ;
+  @G(214) :
+     @L(@C(288).OutVal2, @C(22).IN2)
+    ;
+  @G(251) :
+     @L(@C(22).SUB, @C(308).SPV)
+    ;
+  @G(265) :
+     @L(@VF(264).o, @C(308).PRV)
+    ;
+  @G(284) :
+     @L(@VF(266).o, @C(299).IN2)
+    ;
+  @G(28) :
+     @L(@C(305).Off, @VF(83).i)
+    ;
+  @G(38) :
+     @L(@C(305).Manual, @VF(37).i)
+    ;
+  @G(40) :
+     @L(@C(305).AutoRH, @VF(29).i)
+    ;
+  @G(87) :
+     @L(@C(305).AutoAH, @VF(85).i)
+    ;
+  @G(190) :
+     @L(@C(242).AND, @C(188).IN2)
+    ;
+  @G(246) :
+     @L(@C(185).AND, @C(188).IN1)
+    ;
+  @G(256) :
+     @L(@C(188).OR, @VF(88).i)
+    ;
+  @G(232) :
+     @L(@C(73).FA, @VF(235).i)
+    ;
+  @G(228) :
+     @L(@CONT(227).o, @C(73).T)
+    ;
+  @G(231) :
+     @L(@CONT(226).o, @C(73).F)
+    ;
+  @G(316) :
+     @L(@VF(235).o, @C(318).Val1)
+    ;
+  @G(319) :
+     @L(@VF(317).o, @C(318).Val1EN)
+    ;
+  @G(143) :
+     @L(@VF(285).o, @C(293).IN1)
+    ;
+  @G(294) :
+     @L(@VF(142).o, @C(293).IN2)
+    ;
+  @G(297) :
+     @L(@C(293).MUL, @C(288).B_Val1)
+    ;
+  @G(322) :
+     @L(@CONT(261).o, @C(320).IN1)
+    ;
+  @G(323) :
+     @L(@VF(321).o, @C(320).IN2)
+    ;
+  @G(324) :
+     @L(@C(320).MUL, @C(288).B_Val2)
+    ;
+  @G(140) :
+     @L(@CONT(270).o, @C(139).IN1)
+    ;
+  @G(291) :
+     @L(@C(139).MUL, @C(288).A_Val1)
+    ;
+  @G(325) :
+     @L(@VF(298).o, @C(139).IN2)
+    ;
+  @G(292) :
+     @L(@CONT(273).o, @C(326).IN1)
+    ;
+  @G(328) :
+     @L(@VF(327).o, @C(326).IN2)
+    ;
+  @G(329) :
+     @L(@C(326).MUL, @C(288).A_Val2)
+    ;
+  @G(296) :
+     @L(@C(308).AO, @CONN(31).i)
+    ;
+  @G(337) :
+     @L(@C(336).TO_BOOL, @C(333).Val1EN)
+    ;
+  @G(341) :
+     @L(@CONT(340).o, @C(333).Val2EN)
+    ;
+  @G(343) :
+     @L(@VF(342).o, @C(333).Val2)
+    ;
+  @G(345) :
+     @L(@VF(344).o, @C(333).Val3)
+    ;
+  @G(347) :
+     @L(@VF(37).o, @C(346).In1)
+    ;
+  @G(348) :
+     @L(@VF(29).o, @C(346).In2)
+    ;
+  @G(349) :
+     @L(@VF(85).o, @C(346).In3)
+    ;
+  @G(145) :
+     @L(@C(346).Out, @VF(144).i)
+    ;
+  @G(11) :
+     @L(@C(333).PrVal, @C(305).OpMode)
+    ;
+  @G(12) :
+     @L(@C(43).PrVal, @CP(15)),
+     @L(@CP(15), @C(336).IN),
+     @L(@CP(15), @C(333).Val1)
+    ;
+  @G(19) :
+     @L(@C(30).Status, @C(18).Status)
+    ;
+  @G(24) :
+     @L(@C(6).Status, @C(20).Status)
+    ;
+  @G(315) :
+     @L(@C(18).OffNormal, @C(56).IN1)
+    ;
+  @G(330) :
+     @L(@C(20).OffNormal, @C(56).IN2)
+    ;
+  @G(332) :
+     @L(@C(56).OR, @C(350).IN)
+    ;
+  @G(335) :
+     @L(@CONT(334).o, @C(333).Val3EN)
+    ;
+  @G(351) :
+     @L(@C(350).OUT, @CONN(331).i)
+    ;
+  @G(354) :
+     @L(@C(339).OffNormal, @C(355).IN)
+    ;
+  @G(353) :
+     @L(@C(314).Status, @C(339).Status)
+    ;
+  @G(356) :
+     @L(@C(355).OUT, @CONN(338).i)
+    ;
+END_FUNCTION_BLOCK

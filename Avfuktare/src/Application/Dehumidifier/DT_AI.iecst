@@ -1,0 +1,14 @@
+TYPE
+  {KeepElementOrder}
+  DT_AI :
+    STRUCT
+      XI1 : DINT { description := "XI 1"; };
+      XI2 : DINT { description := "XI 2"; };
+      XI3 : DINT { description := "XI 3"; };
+      XI4 : DINT { description := "XI 4"; };
+      XI1rel : ENU_Reliability { description := "XI 1 rel"; };
+      XI2rel : ENU_Reliability { description := "XI 2 rel"; };
+      XI3rel : ENU_Reliability { description := "XI 3 rel"; };
+      XI4rel : ENU_Reliability { description := "XI 4 rel"; };
+    END_STRUCT;
+END_TYPE

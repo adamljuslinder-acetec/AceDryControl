@@ -1,0 +1,43 @@
+PROGRAM Pgm
+  {
+    altName := "";
+    pageSize := "1340x950";
+    inputValueFieldAreaWidth := 160;
+    outputValueFieldAreaWidth := 160;
+  }
+
+  VAR
+    Device : aoDevice := (aoDevice_InstanceData := (SecLevelWrite1 := 2, SecLevelWrite2 := 4, SecLevelWrite3 := 6, aoDeviceID := 1));
+    Diagnostic : aoDiagnostic := (aoDiagnostic_InstanceData := (ApplicationInfo1 := 'Application Name', ApplicationInfo2 := 'Application Version', ApplicationInfo3 := 'Unique Device ID', ApplicationInfo4 := 'Plant Name', ApplicationInfo5 := 'Street', ApplicationInfo6 := 'Location', SecLevelWrite1 := 2, SecLevelWrite2 := 4, SecLevelWrite3 := 6));
+    HWIO : aoHWIO;
+    aoDehumidifier1 : aoDehumidifier;
+  END_VAR
+
+  (*
+
+    // Network 1:
+    Device();
+
+    // Network 2:
+    Diagnostic();
+
+    // Network 3:
+    aoDehumidifier1();
+
+    // Network 4:
+    HWIO();
+
+  *)
+
+  @C(119) : @FB(Device), instanceNameVisible, @R(220.0, 340.0, 240.0, 58.0), @O(@N(DB), @R(9.5));
+  @CF(116) : @R(0.0, 280.0, 498.0, 28.0), @T("1rst hirarchy Device"), @POU;
+  @CF(1) : @R(170.0, 10.0, 1000.0, 189.0), @T("*************************************************  DESCRIPTION **********************************************************$NThis is a simple example of an application which can be loaded to a Climatix controller to verify correct operation and to learn the programming basic principles:$N$N- The $'Device$' object has to be included in the program to provide interface to client systems (such as SCOPE, BACNet client) to get access to objects in this program.$N"), @POU;
+  @C(104) : @FB(Diagnostic), instanceNameVisible, @R(220.0, 490.0, 300.0, 178.0), @I(@N(Reset), @L(49.5)), @O(@N(DB), @R(9.5)), @O(@N(ErrID), @R(49.5)), @O(@N(ErrTxt), @R(69.5)), @O(@N(aoType), @R(89.5)), @O(@N(aoName), @R(109.5)), @O(@N(StartOK), @R(129.5));
+  @OLT(108) : @R(540.0, 530.0, 298.0, 19.0), @S(104,ErrID);
+  @OLT(112) : @R(540.0, 550.0, 298.0, 19.0), @S(104,ErrTxt);
+  @OLT(107) : @R(540.0, 570.0, 298.0, 19.0), @S(104,aoType);
+  @OLT(103) : @R(540.0, 590.0, 298.0, 19.0), @S(104,aoName);
+  @CF(110) : @R(0.0, 430.0, 498.0, 28.0), @T("Diagnostic with application info"), @POU;
+  @C(3) : @FB(HWIO), instanceNameVisible, @R(780.0, 800.0, 240.0, 58.0), @O(@N(DB), @R(9.5));
+  @C(2) : @FB(aoDehumidifier1), @R(480.0, 800.0, 160.0, 58.0);
+END_PROGRAM

@@ -1,0 +1,8 @@
+GLOBALS IO_Var
+	VAR_GLOBAL
+
+		g_AI : DT_AI;
+		g_AO : DT_AO;
+		g_BI : DT_BI;
+	END_VAR
+END_GLOBALS

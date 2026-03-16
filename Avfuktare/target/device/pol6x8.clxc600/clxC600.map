@@ -1,0 +1,1849 @@
+Archive member included because of file (symbol)
+
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+                              all.sys-gen.o (__aeabi_dsub)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+                              all.sys-gen.o (__aeabi_dcmplt)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o)
+                              all.sys-gen.o (__aeabi_uldivmod)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+                              all.sys-gen.o (__aeabi_f2lz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+                              all.sys-gen.o (__aeabi_d2lz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o) (__aeabi_f2ulz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o) (__aeabi_d2ulz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_dvmd_tls.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o) (__aeabi_dmul)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixunsdfsi.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o) (__aeabi_d2uiz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o) (__divdi3)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o) (__udivdi3)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+                              all.sys-gen.o (modf)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+                              all.sys-gen.o (modff)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+                              all.sys-gen.o (fmod)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+                              all.sys-gen.o (fmodf)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o) (__ieee754_fmod)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o) (__ieee754_fmodf)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o) (__fpclassifyd)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o) (__fdlib_version)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o) (matherr)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o) (__fpclassifyf)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+                              all.sys-gen.o (__ctype_ptr__)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+                              GNUInit.o (__errno)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o) (_impure_ptr)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+                              GNUInit.o (__libc_init_array)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+                              MBRTMain.o (memmove)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+                              all.res.pt.o (memset)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+                              MBRTMain.o (strlen)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+                              all.sys-gen.o (strncasecmp)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+                              all.sys-gen.o (strtod)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (__gethex)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (__hexnan)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (_localeconv_r)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (memcpy)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (_Balloc)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (nanf)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o) (strcmp)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (strncmp)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o) (_calloc_r)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o) (_malloc_r)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o) (__malloc_lock)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o) (_sbrk_r)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o) (_free_r)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o) (errno)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixdfsi.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o) (__aeabi_d2iz)
+C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+                              C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o) (__aeabi_d2f)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+LC_ProgramInstanceData_PGM
+                    0x754             all.res.o
+__hexdig            0x100             C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+g_LC3_GVInstanceData
+                    0x30              LC3GV.o
+LC_TASK_StringStackBuffer_DEFAULTTASK
+                    0x40              all.res.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x28f00000         0x00300000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x28400001                SaphirDummy_ = 0x28400001
+                0x28400005                msr_start_ = 0x28400005
+                0x28400009                msr_ende_ = 0x28400009
+                0x2840000d                clock_ = 0x2840000d
+                0x28400011                LSDTimeCurrent_ = 0x28400011
+                0x28400015                msr_init_saphir_ = 0x28400015
+                0x28400019                getRTC_ = 0x28400019
+                0x2840001d                setRTC_ = 0x2840001d
+                0x28400021                Io_LedSet_ = 0x28400021
+                0x28400025                LC_fv_UINTtoLOG_ENO = 0x28400025
+                0x28400029                LC_fv_LOGtoUINT_ENO = 0x28400029
+                0x2840002d                LC_fv_UINTtoBIT_ENO = 0x2840002d
+                0x28400031                LC_fv_BITtoUINT_ENO = 0x28400031
+                0x28400035                LC_fv_REALtoAO_ENO = 0x28400035
+                0x28400039                LC_fv_AItoREAL_ENO = 0x28400039
+                0x2840003d                LC_fv_FanDelay_ENO = 0x2840003d
+                0x28400041                LC_fv_Feedback_ENO = 0x28400041
+                0x28400045                LC_fv_ABSHumidity_ENO = 0x28400045
+                0x28400049                LC_fv_Enthalpy_ENO = 0x28400049
+                0x2840004d                LC_fv_MotorPrio2_ENO = 0x2840004d
+                0x28400051                LC_fv_PIDT1_ENO = 0x28400051
+                0x28400055                LC_fv_PT1_ENO = 0x28400055
+                0x28400059                LC_fv_CycleTime_ENO = 0x28400059
+                0x2840005d                LC_fv_MSRFailure_ENO = 0x2840005d
+                0x28400061                LC_fv_DTtoUINT_ENO = 0x28400061
+                0x28400065                LC_fv_UINTtoDT_ENO = 0x28400065
+                0x28400069                LC_fv_AccessDB_ENO = 0x28400069
+                0x2840006d                LC_fv_AccessObj_ENO = 0x2840006d
+                0x28400071                LC_fv_AccessDBString_ENO = 0x28400071
+                0x28400075                GetOsVersion = 0x28400075
+                0x28400079                LC_fv_ComConnectA_ENO = 0x28400079
+                0x2840007d                LC_fv_ComConnectUI_ENO = 0x2840007d
+                0x28400081                LC_fv_ComConnectUL_ENO = 0x28400081
+                0x28400085                LC_fv_MBInit_ENO = 0x28400085
+                0x28400089                LC_fv_MBCommand_ENO = 0x28400089
+                0x2840008d                LC_fv_MBMainInit = 0x2840008d
+                0x28400091                LC_fv_MBSlave_ENO = 0x28400091
+                0x28400095                LC_fv_MBSlaveConfig_ENO = 0x28400095
+                0x28400099                LC_fv_MBInitEx_ENO = 0x28400099
+                0x2840009d                LC_fv_EIBP2Pa_ENO = 0x2840009d
+                0x284000a1                LC_fv_EIBP2Pu_ENO = 0x284000a1
+                0x284000a5                LC_fv_HDFFCC_ENO = 0x284000a5
+                0x284000a9                LC_fv_HDFZone_ENO = 0x284000a9
+                0x284000ad                LC_fv_LTESatellite_ENO = 0x284000ad
+                0x284000b1                LC_fv_LTESatelliteConfig_ENO = 0x284000b1
+                0x284000b5                LC_fv_LTEZone_ENO = 0x284000b5
+                0x284000b9                LC_fv_aoAnalogValue_ENO = 0x284000b9
+                0x284000bd                SBT_aoHierarchyStart = 0x284000bd
+                0x284000c1                SBT_aoHierarchyEnd = 0x284000c1
+                0x284000c5                LC_fv_aoSetpointValue_ENO = 0x284000c5
+                0x284000c9                LC_fv_aoSetpointValueLimit_ENO = 0x284000c9
+                0x284000cd                LC_fv_aoSetpointMultistate_ENO = 0x284000cd
+                0x284000d1                LC_fv_aoSetpointUDINT_ENO = 0x284000d1
+                0x284000d5                LC_fv_aoAnalogInput_ENO = 0x284000d5
+                0x284000d9                LC_fv_aoAnalogOutput_ENO = 0x284000d9
+                0x284000dd                LC_fv_aoBinaryInput_ENO = 0x284000dd
+                0x284000e1                LC_fv_aoBinaryValue_ENO = 0x284000e1
+                0x284000e5                LC_fv_aoBinaryOutput_ENO = 0x284000e5
+                0x284000e9                LC_fv_aoMultistateInput_ENO = 0x284000e9
+                0x284000ed                LC_fv_aoMultistateValue_ENO = 0x284000ed
+                0x284000f1                LC_fv_aoMultistateOutput_ENO = 0x284000f1
+                0x284000f5                LC_fv_aoLoopController_ENO = 0x284000f5
+                0x284000f9                LC_fv_aoCascLeadCtlr_ENO = 0x284000f9
+                0x284000fd                LC_fv_aoCurveCalc_ENO = 0x284000fd
+                0x28400101                LC_fv_StatusEval_ENO = 0x28400101
+                0x28400105                LC_fv_aoSetpointString_ENO = 0x28400105
+                0x28400109                LC_fv_aoCalendar_ENO = 0x28400109
+                0x2840010d                LC_fv_aoSchedule_ENO = 0x2840010d
+                0x28400111                LC_fv_aoDevice_ENO = 0x28400111
+                0x28400115                LC_fv_aoDiagnostic_ENO = 0x28400115
+                0x28400119                LC_fv_AccessDBUINT_ENO = 0x28400119
+                0x2840011d                LC_fv_AccessDBUDINT_ENO = 0x2840011d
+                0x28400121                LC_fv_aoDisplayValue_ENO = 0x28400121
+                0x28400125                LC_fv_aoDisplayMultistate_ENO = 0x28400125
+                0x28400129                LC_fv_aoDisplayUDINT_ENO = 0x28400129
+                0x2840012d                LC_fv_aoDisplayString_ENO = 0x2840012d
+                0x28400131                LC_fv_aoPOL6x8AI_ENO = 0x28400131
+                0x28400135                LC_fv_aoPOL6x8DI_ENO = 0x28400135
+                0x28400139                LC_fv_aoPOL6x8DO_ENO = 0x28400139
+                0x2840013d                LC_fv_aoPOL6x8X_ENO = 0x2840013d
+                0x28400141                LC_fv_aoPOL965_ENO = 0x28400141
+                0x28400145                LC_fv_aoPOL985_ENO = 0x28400145
+                0x28400149                LC_fv_aoPOL945_ENO = 0x28400149
+                0x2840014d                LC_fv_aoPOL925_ENO = 0x2840014d
+                0x28400151                LC_fv_NTCtoTemp_ENO = 0x28400151
+                0x28400155                LC_fv_PTNItoTemp_ENO = 0x28400155
+                0x28400159                LC_fv_aoLTEAddressGeographic_ENO = 0x28400159
+                0x2840015d                LC_fv_aoLTEAddressHVACDomain_ENO = 0x2840015d
+                0x28400161                LC_fv_aoLTEAddressFree_ENO = 0x28400161
+                0x28400165                LC_fv_aoPOL94x_ENO = 0x28400165
+                0x28400169                LC_fv_aoPOL955_ENO = 0x28400169
+                0x2840016d                LC_fv_aoSetpointDateTime_ENO = 0x2840016d
+                0x28400171                LC_fv_aoCascLeadCtlrEx_ENO = 0x28400171
+                0x28400175                LC_fv_FanDelayEx_ENO = 0x28400175
+                0x28400179                LC_fv_aoHMISGInit_ENO = 0x28400179
+                0x2840017d                LC_fv_aoHMISGSchedule_ENO = 0x2840017d
+                0x28400181                LC_fv_aoHMISGDevice_ENO = 0x28400181
+                0x28400185                LC_fv_MBInitEx2_ENO = 0x28400185
+                0x28400189                LC_fv_MBSlaveEx_ENO = 0x28400189
+                0x2840018d                LC_fv_UserEngUnit_ENO = 0x2840018d
+                0x28400191                LC_fv_ao3PosCommand_ENO = 0x28400191
+                0x28400195                LC_fv_aoHMISGDeviceEx_ENO = 0x28400195
+                0x28400199                LC_fv_aoPOL945Ex_ENO = 0x28400199
+                0x2840019d                LC_fv_aoPOL985Ex_ENO = 0x2840019d
+                0x284001a1                LC_fv_aoPOL98EU_ENO = 0x284001a1
+                0x284001a5                LC_fv_aoPLLinkDevice_ENO = 0x284001a5
+                0x284001a9                LC_fv_aoPOL96EU_ENO = 0x284001a9
+                0x284001ad                LC_fv_P2P_ENO = 0x284001ad
+                0x284001b1                LC_fv_LTEEngyDmIn_ENO = 0x284001b1
+                0x284001b5                LC_fv_LTEEngyDmOut_ENO = 0x284001b5
+                0x284001b9                LC_fv_aoLTESatellite_ENO = 0x284001b9
+                0x284001bd                LC_fv_aoLTEZone_ENO = 0x284001bd
+                0x284001c1                LC_fv_LTESatelliteConf_ENO = 0x284001c1
+                0x284001c5                LC_fv_aoAnalogAccumulator_ENO = 0x284001c5
+                0x284001c9                LC_fv_aoPulseAccumulator_ENO = 0x284001c9
+                0x284001cd                LC_fv_aoHeatAccumulator_ENO = 0x284001cd
+                0x284001d1                LC_fv_aoSetpointBit_ENO = 0x284001d1
+                0x284001d5                LC_fv_aoPOL6x8_ENO = 0x284001d5
+                0x284001d9                LC_fv_AccessObjInfo_ENO = 0x284001d9
+                0x284001dd                LC_fv_EngUnitChange_ENO = 0x284001dd
+                0x284001e1                LC_fv_MBInitEx3_ENO = 0x284001e1
+                0x284001e5                LC_fv_MBSlaveEx2_ENO = 0x284001e5
+                0x284001e9                LC_fv_aoHide_ENO = 0x284001e9
+                0x284001ed                LC_fv_LTE_xFDM_Out_ENO = 0x284001ed
+                0x284001f1                LC_fv_LTE_xFDM_In_ENO = 0x284001f1
+                0x284001f5                LC_fv_LTE_xPM_In_ENO = 0x284001f5
+                0x284001f9                LC_fv_LTE_xPM_Out_ENO = 0x284001f9
+                0x284001fd                LC_fv_LTE_BOC_In_ENO = 0x284001fd
+                0x28400201                LC_fv_LTE_BOC_Out_ENO = 0x28400201
+                0x28400205                LC_fv_LTE_BUC_In_ENO = 0x28400205
+                0x28400209                LC_fv_aoPOL95E_ENO = 0x28400209
+                0x2840020d                LC_PILTestSetClock_ = 0x2840020d
+                0x28400211                LC_fv_aoSetpointDouble_ENO = 0x28400211
+                0x28400215                LC_fv_aoDisplayDouble_ENO = 0x28400215
+                0x28400219                LC_fv_aoPOL956_ENO = 0x28400219
+                0x2840021d                LC_fv_aoPOL94M_ENO = 0x2840021d
+                0x28400221                LC_fv_MBUpgrade_ENO = 0x28400221
+                0x28400225                LC_fv_MBServerConfig_ENO = 0x28400225
+                0x28400229                LC_fv_aoPOL937_ENO = 0x28400229
+                0x2840022d                LC_fv_AccessDBLREAL_ENO = 0x2840022d
+                0x28400231                LC_fv_aoPersStorage_ENO = 0x28400231
+                0x28400235                LC_fv_aoPOL966_ENO = 0x28400235
+                0x28400239                LC_fv_MLPredictTrain_ENO = 0x28400239
+                0x2840023d                LC_fv_TOTP_ENO = 0x2840023d
+
+.rodata         0x28f00000      0xabc
+ *SBTFunctionExport.o(.rodata)
+ .rodata        0x28f00000       0x88 SBTFunctionExport.o
+                0x28f00000                dllHead
+ *(.rodata)
+ .rodata        0x28f00088       0x1c LC3AppInfo.o
+ .rodata        0x28f000a4      0x874 InstData.o
+                0x28f000a4                OBH_InitValue0
+                0x28f000c4                OBH_InitValue1
+                0x28f000f8                OBH_InitValue2
+                0x28f00188                OBH_InitValue3
+                0x28f001a8                OBH_InitValue4
+                0x28f00238                OBH_InitValue5
+                0x28f00264                OBH_InitValue6
+                0x28f002f4                OBH_InitValue7
+                0x28f0032c                OBH_InitValue8
+                0x28f00360                OBH_InitValue9
+                0x28f003bc                OBH_InitValue10
+                0x28f0044c                OBH_InitValue11
+                0x28f004a8                OBH_InitValue12
+                0x28f00504                OBH_InitValue13
+                0x28f00560                OBH_InitValue14
+                0x28f005f0                OBH_InitValue15
+                0x28f00624                OBH_InitValue16
+                0x28f00658                OBH_InitValue17
+                0x28f0068c                OBH_InitValue18
+                0x28f006c0                OBH_InitValue19
+                0x28f006f4                OBH_InitValue20
+                0x28f00728                OBH_InitValue21
+                0x28f0075c                OBH_InitValue22
+                0x28f00790                OBH_InitValue23
+                0x28f007c4                OBH_InitValue24
+                0x28f007fc                OBH_InitValue25
+                0x28f00890                OBH_InitValue26
+                0x28f008c8                OBH_InitValue27
+ .rodata        0x28f00918        0x4 SBTRainbowModbus.o
+                0x28f00918                ModbusData
+                0x28f00918                cntModbusData
+ .rodata        0x28f0091c      0x1a0 WriteSecurity.o
+
+.rodata.str1.1  0x28f00abc      0x397
+ .rodata.str1.1
+                0x28f00abc       0x61 all.dt.o
+                                 0x6d (size before relaxing)
+ .rodata.str1.1
+                0x28f00b1d       0x10 all.res.o
+ .rodata.str1.1
+                0x28f00b2d        0xf LC3GV_EPDB.o
+ .rodata.str1.1
+                0x28f00b3c       0x47 LC3AppInfo.o
+ .rodata.str1.1
+                0x28f00b83        0xb all.sys-gen.o
+ .rodata.str1.1
+                0x00000000        0xb MBRTMain.o
+                                  0x1 (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0x1 LCAPI_GenCode.o
+ .rodata.str1.1
+                0x28f00b8e      0x1a1 InstData.o
+                                0x1bd (size before relaxing)
+ .rodata.str1.1
+                0x28f00d2f        0xd SBTCodeInfo.o
+ .rodata.str1.1
+                0x28f00d3c      0x117 SBTFunctionExport.o
+
+.ARM.extab      0x28f00e53        0x0
+ .ARM.extab     0x28f00e53        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .ARM.extab     0x28f00e53        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+
+.ARM.exidx      0x28f00e54        0x8
+ .ARM.exidx     0x28f00e54        0x8 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x28f00e5c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.rodata.str1.4  0x28f00e5c       0x4c
+ .rodata.str1.4
+                0x28f00e5c        0x5 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x28f00e61        0x3 00
+ .rodata.str1.4
+                0x28f00e64        0x6 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+                                  0x8 (size before relaxing)
+ *fill*         0x28f00e6a        0x2 00
+ .rodata.str1.4
+                0x28f00e6c        0x2 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x28f00e6e        0x2 00
+ .rodata.str1.4
+                0x28f00e70        0xf C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+                                 0x10 (size before relaxing)
+ *fill*         0x28f00e7f        0x1 00
+ .rodata.str1.4
+                0x28f00e80       0x1b C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+                                 0x1c (size before relaxing)
+ *fill*         0x28f00e9b        0x1 00
+ .rodata.str1.4
+                0x28f00e9c        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                                 0x14 (size before relaxing)
+
+.rodata.Zero    0x28f00ea8       0x18
+ .rodata.Zero   0x28f00ea8       0x10 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .rodata.Zero   0x28f00eb8        0x8 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+
+.rodata._ctype_
+                0x28f00ec0      0x104
+ .rodata._ctype_
+                0x28f00ec0      0x104 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+                0x28f00ec0                _ctype_
+
+.rodata._global_impure_ptr
+                0x28f00fc4        0x4
+ .rodata._global_impure_ptr
+                0x28f00fc4        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+                0x28f00fc4                _global_impure_ptr
+
+.rodata.tinytens
+                0x28f00fc8       0x28
+ .rodata.tinytens
+                0x28f00fc8       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+
+.rodata.p05.5242
+                0x28f00ff0        0xc
+ .rodata.p05.5242
+                0x28f00ff0        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+
+.rodata.__mprec_tens
+                0x28f01000       0xc8
+ .rodata.__mprec_tens
+                0x28f01000       0xc8 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f01000                __mprec_tens
+
+.rodata.__mprec_bigtens
+                0x28f010c8       0x28
+ .rodata.__mprec_bigtens
+                0x28f010c8       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f010c8                __mprec_bigtens
+
+.rodata.__mprec_tinytens
+                0x28f010f0       0x28
+ .rodata.__mprec_tinytens
+                0x28f010f0       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f010f0                __mprec_tinytens
+                0x28f01118                . = ALIGN (0x4)
+
+.text           0x28f01118     0x52c8
+ *(.text)
+ .text          0x28f01118       0x50 lcpu___pgm.o
+                0x28f01118                lcpu___PGM
+ .text          0x28f01168     0x1818 all.src-gen.o
+                0x28f01168                LC_INIT_FUN_FunctionBlock_AODEHUMIDIFIER
+                0x28f018cc                LC_WINIT_FUN_FunctionBlock_AODEHUMIDIFIER
+                0x28f02038                lcfu___clx___AOHWIO
+                0x28f020c4                lcfu___AOHWIO
+                0x28f020e8                lcfu___FB_ANYTRUE3
+                0x28f020fa                lcfu___FB_MODESELECTOR
+                0x28f0212c                lcfu___FB_TWOCHANNELSELECT
+                0x28f0214c                lcfu___AODEHUMIDIFIER
+ .text          0x28f02980     0x11c0 all.dt.o
+                0x28f02980                LC_INIT_FUN_DataType_AOANALOGINPUT_INSTANCEDATA
+                0x28f02a28                LC_WINIT_FUN_DataType_AOANALOGINPUT_INSTANCEDATA
+                0x28f02ad4                LC_INIT_FUN_DataType_AOANALOGOUTPUT_INSTANCEDATA
+                0x28f02c68                LC_WINIT_FUN_DataType_AOANALOGOUTPUT_INSTANCEDATA
+                0x28f02dfc                LC_INIT_FUN_DataType_AOANALOGVALUE_INSTANCEDATA
+                0x28f02f8c                LC_WINIT_FUN_DataType_AOANALOGVALUE_INSTANCEDATA
+                0x28f03120                LC_INIT_FUN_DataType_AOBINARYINPUT_INSTANCEDATA
+                0x28f031a4                LC_WINIT_FUN_DataType_AOBINARYINPUT_INSTANCEDATA
+                0x28f0322c                LC_INIT_FUN_DataType_AODEVICE_INSTANCEDATA
+                0x28f03278                LC_WINIT_FUN_DataType_AODEVICE_INSTANCEDATA
+                0x28f032c4                LC_INIT_FUN_DataType_AODIAGNOSTIC_INSTANCEDATA
+                0x28f03370                LC_WINIT_FUN_DataType_AODIAGNOSTIC_INSTANCEDATA
+                0x28f03420                LC_INIT_FUN_DataType_AOLOOPCONTROLLER_INSTANCEDATA
+                0x28f03488                LC_WINIT_FUN_DataType_AOLOOPCONTROLLER_INSTANCEDATA
+                0x28f034f4                LC_INIT_FUN_DataType_AOMULTISTATEVALUE_INSTANCEDATA
+                0x28f035a8                LC_WINIT_FUN_DataType_AOMULTISTATEVALUE_INSTANCEDATA
+                0x28f03660                LC_INIT_FUN_DataType_AOPOL6X8_INSTANCEDATA
+                0x28f037a4                LC_WINIT_FUN_DataType_AOPOL6X8_INSTANCEDATA
+                0x28f038ec                LC_INIT_FUN_DataType_AOSETPOINTMULTISTATE_INSTANCEDATA
+                0x28f0394c                LC_WINIT_FUN_DataType_AOSETPOINTMULTISTATE_INSTANCEDATA
+                0x28f039b0                LC_INIT_FUN_DataType_AOSETPOINTVALUE_INSTANCEDATA
+                0x28f03a14                LC_WINIT_FUN_DataType_AOSETPOINTVALUE_INSTANCEDATA
+                0x28f03a78                LC_INIT_FUN_DataType_AOSETPOINTVALUELIMIT_INSTANCEDATA
+                0x28f03adc                LC_WINIT_FUN_DataType_AOSETPOINTVALUELIMIT_INSTANCEDATA
+ .text          0x28f03b40       0x98 all.res.o
+                0x28f03b40                lc_ioacc_copyInputData
+                0x28f03b54                lc_ioacc_copyOutputData
+                0x28f03b68                lc_ioacc_copyMemoryDataToVariables
+                0x28f03b7c                lc_ioacc_copyMemoryDataFromVariables
+                0x28f03b90                lc_ioacc_getServiceInfoByName
+                0x28f03ba8                LCocc_queryTASKCount
+                0x28f03bac                LCocc_queryTASK
+                0x28f03bbc                LCocc_queryEP
+                0x28f03bd4                LCocc_queryEPCount
+ .text          0x28f03bd8      0x394 all.res.pt.o
+                0x28f03bd8                LC_PT_Init_PGM
+                0x28f03f50                LC_PT_Exec_PGM
+ .text          0x28f03f6c        0x0 LC3GV_EPDB.o
+ .text          0x28f03f6c       0x18 LC3AppInfo.o
+                0x28f03f6c                lc_get_application_info
+ .text          0x28f03f84       0x60 LC3GV.o
+                0x28f03f84                LC_GV_Init
+ *fill*         0x28f03fe4        0x4 00
+ .text          0x28f03fe8      0x7b0 all.sys-gen.o
+                0x28f04328                lcfu___ABSHUMIDITY
+                0x28f04334                lcfu___AITOREAL
+                0x28f04340                lcfu___AOANALOGINPUT__3
+                0x28f0434c                lcfu___AOANALOGOUTPUT__12
+                0x28f04358                lcfu___AOANALOGVALUE__11
+                0x28f04364                lcfu___AOBINARYINPUT__4
+                0x28f04370                lcfu___AODEVICE
+                0x28f0437c                lcfu___AODIAGNOSTIC
+                0x28f04388                lcfu___AOLOOPCONTROLLER
+                0x28f04394                lcfu___AOMULTISTATEVALUE__11
+                0x28f043a0                lcfu___AOPOL6X8
+                0x28f043ac                lcfu___AOSETPOINTMULTISTATE
+                0x28f043b8                lcfu___AOSETPOINTVALUE
+                0x28f043c4                lcfu___AOSETPOINTVALUELIMIT
+                0x28f043d0                lcfu___PIDT1
+                0x28f043dc                lcfu___PTNITOTEMP
+                0x28f043e8                lcfu___REALTOAO
+                0x28f043f4                lcfu___STATUSEVAL__2
+                0x28f04400                LCfu_iec61131__CONVERT_roundhalfevenF
+                0x28f04428                LCfu_iec61131__CONVERT_roundhalfeven
+                0x28f0446c                LCfu_iec61131__CONVERT_roundhalfevenF_unsigned
+                0x28f04482                LCfu_iec61131__CONVERT_roundhalfeven_unsigned
+                0x28f044b0                LCfu_iec61131__CONVERT_StringToNumber
+                0x28f044d2                LCfu_iec61131__CONVERT_StringToUnsignedNumber
+                0x28f044f4                LCfu_iec61131__CONVERT_StringToBool
+                0x28f04568                LCfu_iec61131__CONVERT_StringToFloat
+                0x28f04598                LCfu_iec61131__CONVERT_StringToDouble
+                0x28f045cc                LC_MF_EXPT_SINTEGER_IMPL
+                0x28f04714                LC_MF_EXPT_UINTEGER_IMPL
+ .text          0x28f04798      0x518 MBRTMain.o
+                0x28f04798                LCCG_Create1DArrayDescriptor
+                0x28f047a6                LCCG_Init1DArrayDescriptor
+                0x28f047b4                LCCG_Create2DArrayDescriptor
+                0x28f047c4                LCCG_Init2DArrayDescriptor
+                0x28f047d0                LCCG_Create3DArrayDescriptor
+                0x28f047e2                LCCG_Init3DArrayDescriptor
+                0x28f047f0                LCCG_Create4DArrayDescriptor
+                0x28f04802                LCCG_Init4DArrayDescriptor
+                0x28f04810                LC_fs3_ACTION_CB
+                0x28f04b32                LCCG_CopyString_Impl
+                0x28f04b90                LCCG_CreateStringStruct_Impl
+                0x28f04b98                LCCG_InitStringStruct_Impl
+                0x28f04ba0                LCCG_GetStringBuffer_Impl
+                0x28f04ba8                LCCG_ResetStringBuffer_Impl
+                0x28f04bb0                LCCG_GetMaxStringStruct_Impl
+                0x28f04bd2                LCCG_CompressAndReserveStringBuffer_Impl
+                0x28f04c20                LC_SubString_OnOverflow
+                0x28f04c30                LC_SubString_Ref
+                0x28f04c48                LC_abstract_method_purevirtual
+                0x28f04c4a                LC_OOP_getPtr2RealObject
+                0x28f04c5a                LC_OOP_DynamicCastFun
+                0x28f04c9c                LC3_qw_get_current_time_ep
+                0x28f04ca8                LCocc_queryTaskCycleTime
+ .text          0x28f04cb0      0x29c LCAPI_GenCode.o
+                0x28f04cb0                LC_GC_getApiVersion
+                0x28f04cd0                LC_GC_getNumTasks
+                0x28f04cec                LC_GC_queryTask
+                0x28f04d18                LC_GC_getNumEPs
+                0x28f04d34                LC_GC_queryEP
+                0x28f04d60                LC_GC_getTimerFreq
+                0x28f04d78                LC_GC_Task_getName
+                0x28f04d8c                LC_GC_Task_getInterval
+                0x28f04da4                LC_GC_Task_getPriority
+                0x28f04db8                LC_GC_EP_getName
+                0x28f04dcc                LC_GC_EP_getID
+                0x28f04de0                LC_GC_EP_getTask
+                0x28f04df4                LC_GC_EP_getContext
+                0x28f04e08                LC_GC_EP_setContext
+                0x28f04e18                LC_GC_EP_getInstanceData
+                0x28f04e2c                LC_GC_EP_getInstanceDataSize
+                0x28f04e40                LC_GC_EP_callInitCold
+                0x28f04e68                LC_GC_EP_callInitWarm
+                0x28f04e90                LC_GC_EP_callEntry
+                0x28f04eb4                LC_GC_getCodeImageInfo
+                0x28f04edc                LC_GC_getFingerprint
+                0x28f04f08                LC_GC_EP_hasCodeToExecute
+                0x28f04f24                LC_GC_getResourceName
+ .text          0x28f04f4c      0x1a4 InstData.o
+                0x28f04f4c                InitPointer
+ .text          0x28f050f0       0x78 SBTCodeInfo.o
+                0x28f050f0                SBTqueryGUID
+                0x28f05124                SBTquerySecurityGUID
+                0x28f0513e                SBTqueryChangeLogUUID
+                0x28f05158                SBTqueryCodeTarget
+                0x28f0515e                LCocc_queryCVersion
+ .text          0x28f05168       0x10 SBTRainbowIOExtension.o
+                0x28f05168                SBTqueryIOExt
+ .text          0x28f05178        0x0 SBTRainbowModbus.o
+ .text          0x28f05178       0x10 SBTRainbowPLLink.o
+                0x28f05178                SBTqueryPLLink
+ .text          0x28f05188        0xe SBTRainbowPersStorage.o
+                0x28f05188                SBTqueryPersStore
+ *fill*         0x28f05196        0x2 00
+ .text          0x28f05198       0x10 WriteSecurity.o
+                0x28f05198                SBTquerySecurityWrite
+ .text          0x28f051a8        0x0 util.o
+ .text          0x28f051a8       0xac GNUInit.o
+                0x28f051a8                InitGNU
+                0x28f05218                _sbrk
+                0x28f05250                _init
+ .text          0x28f05254       0x14 SBTDummy.o
+                0x28f05254                LC_get_current_time_ep
+ .text          0x28f05268        0x0 SBTFunctionExport.o
+ .text          0x28f05268       0x44 SBTInstanceSupport.o
+                0x28f05268                SetAddr
+ .text          0x28f052ac       0x94 SBTPLCWrapper.o
+                0x28f052ac                SBTqueryCodeInfo
+                0x28f052c8                LC_fr_SimpleMain
+ .text          0x28f05340       0x10 PilTestSupport.o
+                0x28f05340                LC_set_current_time_ep
+ .text          0x28f05350      0x370 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+                0x28f05350                __aeabi_drsub
+                0x28f05358                __aeabi_dsub
+                0x28f05358                __subdf3
+                0x28f0535c                __aeabi_dadd
+                0x28f0535c                __adddf3
+                0x28f055d4                __floatunsidf
+                0x28f055d4                __aeabi_ui2d
+                0x28f055f4                __floatsidf
+                0x28f055f4                __aeabi_i2d
+                0x28f05618                __aeabi_f2d
+                0x28f05618                __extendsfdf2
+                0x28f05654                __floatundidf
+                0x28f05654                __aeabi_ul2d
+                0x28f05664                __floatdidf
+                0x28f05664                __aeabi_l2d
+ .text          0x28f056c0      0x110 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+                0x28f056c0                __gtdf2
+                0x28f056c0                __gedf2
+                0x28f056c8                __ltdf2
+                0x28f056c8                __ledf2
+                0x28f056d0                __nedf2
+                0x28f056d0                __eqdf2
+                0x28f056d0                __cmpdf2
+                0x28f0574c                __aeabi_cdrcmple
+                0x28f0575c                __aeabi_cdcmpeq
+                0x28f0575c                __aeabi_cdcmple
+                0x28f0576c                __aeabi_dcmpeq
+                0x28f05780                __aeabi_dcmplt
+                0x28f05794                __aeabi_dcmple
+                0x28f057a8                __aeabi_dcmpge
+                0x28f057bc                __aeabi_dcmpgt
+ .text          0x28f057d0       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o)
+                0x28f057d0                __aeabi_uldivmod
+ .text          0x28f057fc       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+                0x28f057fc                __fixsfdi
+                0x28f057fc                __aeabi_f2lz
+ .text          0x28f0582c       0x34 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+                0x28f0582c                __fixdfdi
+                0x28f0582c                __aeabi_d2lz
+ .text          0x28f05860       0x48 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+                0x28f05860                __fixunssfdi
+                0x28f05860                __aeabi_f2ulz
+ .text          0x28f058a8       0x44 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+                0x28f058a8                __fixunsdfdi
+                0x28f058a8                __aeabi_d2ulz
+ .text          0x28f058ec       0x58 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+                0x28f058ec                __gnu_ldivmod_helper
+                0x28f05918                __gnu_uldivmod_helper
+ .text          0x28f05944        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_dvmd_tls.o)
+                0x28f05944                __aeabi_idiv0
+                0x28f05944                __aeabi_ldiv0
+ .text          0x28f05948      0x424 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+                0x28f05948                __aeabi_dmul
+                0x28f05948                __muldf3
+                0x28f05b9c                __divdf3
+                0x28f05b9c                __aeabi_ddiv
+ .text          0x28f05d6c       0x40 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixunsdfsi.o)
+                0x28f05d6c                __aeabi_d2uiz
+                0x28f05d6c                __fixunsdfsi
+ .text          0x28f05dac      0x2bc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+                0x28f05dac                __divdi3
+ .text          0x28f06068      0x288 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+                0x28f06068                __udivdi3
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+ .text          0x28f062f0        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+ .text          0x28f062f0       0x50 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixdfsi.o)
+                0x28f062f0                __aeabi_d2iz
+                0x28f062f0                __fixdfsi
+ .text          0x28f06340       0xa0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+                0x28f06340                __truncdfsf2
+                0x28f06340                __aeabi_d2f
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x28f063e0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x28f063e0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x28f063e0        0x0
+ .iplt          0x00000000        0x0 lcpu___pgm.o
+
+.text.modf      0x28f063e0       0xc0
+ .text.modf     0x28f063e0       0xc0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+                0x28f063e0                modf
+
+.text.modff     0x28f064a0       0x54
+ .text.modff    0x28f064a0       0x54 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+                0x28f064a0                modff
+
+.text.fmod      0x28f064f4       0xcc
+ .text.fmod     0x28f064f4       0xcc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+                0x28f064f4                fmod
+
+.text.fmodf     0x28f065c0       0xcc
+ .text.fmodf    0x28f065c0       0xcc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+                0x28f065c0                fmodf
+
+.text.__ieee754_fmod
+                0x28f0668c      0x314
+ .text.__ieee754_fmod
+                0x28f0668c      0x314 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+                0x28f0668c                __ieee754_fmod
+
+.text.__ieee754_fmodf
+                0x28f069a0      0x148
+ .text.__ieee754_fmodf
+                0x28f069a0      0x148 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+                0x28f069a0                __ieee754_fmodf
+
+.text.__fpclassifyd
+                0x28f06ae8       0x70
+ .text.__fpclassifyd
+                0x28f06ae8       0x70 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+                0x28f06ae8                __fpclassifyd
+
+.text.matherr   0x28f06b58        0x4
+ .text.matherr  0x28f06b58        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+                0x28f06b58                matherr
+
+.text.__fpclassifyf
+                0x28f06b5c       0x5c
+ .text.__fpclassifyf
+                0x28f06b5c       0x5c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+                0x28f06b5c                __fpclassifyf
+
+.text.__errno   0x28f06bb8        0xc
+ .text.__errno  0x28f06bb8        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+                0x28f06bb8                __errno
+
+.text.__libc_init_array
+                0x28f06bc4       0x94
+ .text.__libc_init_array
+                0x28f06bc4       0x94 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+                0x28f06bc4                __libc_init_array
+
+.text.memmove   0x28f06c58      0x198
+ .text.memmove  0x28f06c58      0x198 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+                0x28f06c58                memmove
+
+.text.memset    0x28f06df0      0x12c
+ .text.memset   0x28f06df0      0x12c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+                0x28f06df0                memset
+
+.text.strlen    0x28f06f1c       0x60
+ .text.strlen   0x28f06f1c       0x60 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+                0x28f06f1c                strlen
+
+.text.strncasecmp
+                0x28f06f7c       0xe0
+ .text.strncasecmp
+                0x28f06f7c       0xe0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+                0x28f06f7c                strncasecmp
+
+.text._strtod_r
+                0x28f07060      0xed8
+ .text._strtod_r
+                0x28f07060      0xed8 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+                0x28f07060                _strtod_r
+
+.text.strtod    0x28f07f38       0x18
+ .text.strtod   0x28f07f38       0x18 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+                0x28f07f38                strtod
+
+.text.strtof    0x28f07f50       0x44
+ .text.strtof   0x28f07f50       0x44 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+                0x28f07f50                strtof
+
+.text.rshift    0x28f07f94      0x13c
+ .text.rshift   0x28f07f94      0x13c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+
+.text.__hexdig_init
+                0x28f080d0       0x50
+ .text.__hexdig_init
+                0x28f080d0       0x50 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+                0x28f080d0                __hexdig_init
+
+.text.__gethex  0x28f08120      0x58c
+ .text.__gethex
+                0x28f08120      0x58c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+                0x28f08120                __gethex
+
+.text.__hexnan  0x28f086ac      0x2f0
+ .text.__hexnan
+                0x28f086ac      0x2f0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+                0x28f086ac                __hexnan
+
+.text._setlocale_r
+                0x28f0899c       0x40
+ .text._setlocale_r
+                0x28f0899c       0x40 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f0899c                _setlocale_r
+
+.text.__locale_charset
+                0x28f089dc        0xc
+ .text.__locale_charset
+                0x28f089dc        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f089dc                __locale_charset
+
+.text.__locale_mb_cur_max
+                0x28f089e8        0xc
+ .text.__locale_mb_cur_max
+                0x28f089e8        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f089e8                __locale_mb_cur_max
+
+.text.__locale_msgcharset
+                0x28f089f4        0xc
+ .text.__locale_msgcharset
+                0x28f089f4        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f089f4                __locale_msgcharset
+
+.text.__locale_cjk_lang
+                0x28f08a00        0x4
+ .text.__locale_cjk_lang
+                0x28f08a00        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f08a00                __locale_cjk_lang
+
+.text._localeconv_r
+                0x28f08a04        0xc
+ .text._localeconv_r
+                0x28f08a04        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f08a04                _localeconv_r
+
+.text.setlocale
+                0x28f08a10       0x18
+ .text.setlocale
+                0x28f08a10       0x18 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f08a10                setlocale
+
+.text.localeconv
+                0x28f08a28        0xc
+ .text.localeconv
+                0x28f08a28        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f08a28                localeconv
+
+.text.memcpy    0x28f08a34      0x144
+ .text.memcpy   0x28f08a34      0x144 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+                0x28f08a34                memcpy
+
+.text._Balloc   0x28f08b78       0x4c
+ .text._Balloc  0x28f08b78       0x4c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08b78                _Balloc
+
+.text._Bfree    0x28f08bc4       0x14
+ .text._Bfree   0x28f08bc4       0x14 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08bc4                _Bfree
+
+.text.__multadd
+                0x28f08bd8       0xf8
+ .text.__multadd
+                0x28f08bd8       0xf8 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08bd8                __multadd
+
+.text.__s2b     0x28f08cd0      0x140
+ .text.__s2b    0x28f08cd0      0x140 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08cd0                __s2b
+
+.text.__hi0bits
+                0x28f08e10       0x3c
+ .text.__hi0bits
+                0x28f08e10       0x3c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08e10                __hi0bits
+
+.text.__lo0bits
+                0x28f08e4c       0x5c
+ .text.__lo0bits
+                0x28f08e4c       0x5c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08e4c                __lo0bits
+
+.text.__i2b     0x28f08ea8       0x14
+ .text.__i2b    0x28f08ea8       0x14 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08ea8                __i2b
+
+.text.__multiply
+                0x28f08ebc      0x2d0
+ .text.__multiply
+                0x28f08ebc      0x2d0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f08ebc                __multiply
+
+.text.__pow5mult
+                0x28f0918c       0x94
+ .text.__pow5mult
+                0x28f0918c       0x94 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f0918c                __pow5mult
+
+.text.__lshift  0x28f09220      0x188
+ .text.__lshift
+                0x28f09220      0x188 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09220                __lshift
+
+.text.__mcmp    0x28f093a8       0x5c
+ .text.__mcmp   0x28f093a8       0x5c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f093a8                __mcmp
+
+.text.__mdiff   0x28f09404      0x20c
+ .text.__mdiff  0x28f09404      0x20c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09404                __mdiff
+
+.text.__ulp     0x28f09610       0x54
+ .text.__ulp    0x28f09610       0x54 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09610                __ulp
+
+.text.__b2d     0x28f09664       0xc4
+ .text.__b2d    0x28f09664       0xc4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09664                __b2d
+
+.text.__d2b     0x28f09728       0xb4
+ .text.__d2b    0x28f09728       0xb4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09728                __d2b
+
+.text.__ratio   0x28f097dc       0x5c
+ .text.__ratio  0x28f097dc       0x5c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f097dc                __ratio
+
+.text._mprec_log10
+                0x28f09838       0x6c
+ .text._mprec_log10
+                0x28f09838       0x6c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09838                _mprec_log10
+
+.text.__copybits
+                0x28f098a4       0xa4
+ .text.__copybits
+                0x28f098a4       0xa4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f098a4                __copybits
+
+.text.__any_on  0x28f09948       0x74
+ .text.__any_on
+                0x28f09948       0x74 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+                0x28f09948                __any_on
+
+.text.nanf      0x28f099bc        0xc
+ .text.nanf     0x28f099bc        0xc C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+                0x28f099bc                nanf
+
+.text.strcmp    0x28f099c8       0x80
+ .text.strcmp   0x28f099c8       0x80 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+                0x28f099c8                strcmp
+
+.text.strcmp_unaligned
+                0x28f09a48      0x15c
+ .text.strcmp_unaligned
+                0x28f09a48      0x15c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+
+.text.strncmp   0x28f09ba4      0x120
+ .text.strncmp  0x28f09ba4      0x120 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+                0x28f09ba4                strncmp
+
+.text._calloc_r
+                0x28f09cc4       0x60
+ .text._calloc_r
+                0x28f09cc4       0x60 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+                0x28f09cc4                _calloc_r
+
+.text._malloc_r
+                0x28f09d24      0x55c
+ .text._malloc_r
+                0x28f09d24      0x55c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f09d24                _malloc_r
+
+.text.__malloc_lock
+                0x28f0a280        0x4
+ .text.__malloc_lock
+                0x28f0a280        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+                0x28f0a280                __malloc_lock
+
+.text.__malloc_unlock
+                0x28f0a284        0x4
+ .text.__malloc_unlock
+                0x28f0a284        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+                0x28f0a284                __malloc_unlock
+
+.text._sbrk_r   0x28f0a288       0x24
+ .text._sbrk_r  0x28f0a288       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+                0x28f0a288                _sbrk_r
+
+.text._malloc_trim_r
+                0x28f0a2ac       0x98
+ .text._malloc_trim_r
+                0x28f0a2ac       0x98 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+                0x28f0a2ac                _malloc_trim_r
+
+.text._free_r   0x28f0a344      0x194
+ .text._free_r  0x28f0a344      0x194 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+                0x28f0a344                _free_r
+
+.text.cleanup_glue
+                0x28f0a4d8       0x1c
+ .text.cleanup_glue
+                0x28f0a4d8       0x1c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+                0x28f0a4d8                cleanup_glue
+
+.text._reclaim_reent
+                0x28f0a4f4       0x8c
+ .text._reclaim_reent
+                0x28f0a4f4       0x8c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+                0x28f0a4f4                _reclaim_reent
+
+.text._wrapup_reent
+                0x28f0a580       0x74
+ .text._wrapup_reent
+                0x28f0a580       0x74 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+                0x28f0a580                _wrapup_reent
+
+.rel.dyn        0x28f0a5f4        0x0
+ .rel.iplt      0x00000000        0x0 lcpu___pgm.o
+                0x28f0a5f4                . = ALIGN (0x4)
+                0x28f0a5f4                . = ALIGN (0x4)
+                0x28f0a5f4                _etext = .
+                0x28f0a5f4                PROVIDE (etext, .)
+
+.data           0x28f0a5f8      0x184 load address 0x28f0a5f4
+                0x28f0a5f8                _data = .
+ *(.data)
+ .data          0x28f0a5f8        0x0 lcpu___pgm.o
+ .data          0x28f0a5f8        0x0 all.src-gen.o
+ .data          0x28f0a5f8        0x0 all.dt.o
+ .data          0x28f0a5f8       0xf8 all.res.o
+                0x28f0a5f8                LC_vg_TaskTable
+                0x28f0a5fc                LC_vg_EPDBTable
+                0x28f0a608                LC_vg_Task_DEFAULTTASK
+                0x28f0a650                LC_vg_StringStack_DEFAULTTASK
+                0x28f0a660                LC_vg_PI_EPDB_PGM
+                0x28f0a6e8                LC_vg_CCED_PGM
+ .data          0x28f0a6f0        0x0 all.res.pt.o
+ .data          0x28f0a6f0       0x88 LC3GV_EPDB.o
+                0x28f0a6f0                LC_vg_GV_EPDB
+ .data          0x28f0a778        0x0 LC3AppInfo.o
+ .data          0x28f0a778        0x0 LC3GV.o
+ .data          0x28f0a778        0x0 all.sys-gen.o
+ .data          0x28f0a778        0x4 MBRTMain.o
+                0x28f0a778                LC3_EmptyStringForUnsizedStringInit
+ .data          0x28f0a77c        0x0 LCAPI_GenCode.o
+ .data          0x28f0a77c        0x0 InstData.o
+ .data          0x28f0a77c        0x0 SBTCodeInfo.o
+ .data          0x28f0a77c        0x0 SBTRainbowIOExtension.o
+ .data          0x28f0a77c        0x0 SBTRainbowModbus.o
+ .data          0x28f0a77c        0x0 SBTRainbowPLLink.o
+ .data          0x28f0a77c        0x0 SBTRainbowPersStorage.o
+ .data          0x28f0a77c        0x0 WriteSecurity.o
+ .data          0x28f0a77c        0x0 util.o
+ .data          0x28f0a77c        0x0 GNUInit.o
+ .data          0x28f0a77c        0x0 SBTDummy.o
+ .data          0x28f0a77c        0x0 SBTFunctionExport.o
+ .data          0x28f0a77c        0x0 SBTInstanceSupport.o
+ .data          0x28f0a77c        0x0 SBTPLCWrapper.o
+ .data          0x28f0a77c        0x0 PilTestSupport.o
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_dvmd_tls.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixunsdfsi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixdfsi.o)
+ .data          0x28f0a77c        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+
+.igot.plt       0x28f0a77c        0x0 load address 0x28f0a778
+ .igot.plt      0x00000000        0x0 lcpu___pgm.o
+
+.data.__fdlib_version
+                0x28f0a77c        0x1 load address 0x28f0a778
+ .data.__fdlib_version
+                0x28f0a77c        0x1 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+                0x28f0a77c                __fdlib_version
+
+.data.__ctype_ptr__
+                0x28f0a780        0x4 load address 0x28f0a77c
+ .data.__ctype_ptr__
+                0x28f0a780        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+                0x28f0a780                __ctype_ptr__
+
+.data.impure_data
+                0x28f0a788      0x428
+ .data.impure_data
+                0x28f0a788      0x428 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+
+.data._impure_ptr
+                0x28f0abb0        0x4
+ .data._impure_ptr
+                0x28f0abb0        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+                0x28f0abb0                _impure_ptr
+
+.data.fpi.5202  0x28f0abb4       0x14
+ .data.fpi.5202
+                0x28f0abb4       0x14 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+
+.data.fpinan.5238
+                0x28f0abc8       0x14
+ .data.fpinan.5238
+                0x28f0abc8       0x14 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+
+.data.lc_message_charset
+                0x28f0abdc       0x20
+ .data.lc_message_charset
+                0x28f0abdc       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+
+.data.lconv     0x28f0abfc       0x38
+ .data.lconv    0x28f0abfc       0x38 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+
+.data.lc_ctype_charset
+                0x28f0ac34       0x20
+ .data.lc_ctype_charset
+                0x28f0ac34       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+
+.data.__mb_cur_max
+                0x28f0ac54        0x4
+ .data.__mb_cur_max
+                0x28f0ac54        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f0ac54                __mb_cur_max
+
+.data.__malloc_av_
+                0x28f0ac58      0x408
+ .data.__malloc_av_
+                0x28f0ac58      0x408 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0ac58                __malloc_av_
+
+.data.__malloc_trim_threshold
+                0x28f0b060        0x4
+ .data.__malloc_trim_threshold
+                0x28f0b060        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b060                __malloc_trim_threshold
+
+.data.__malloc_sbrk_base
+                0x28f0b064        0x4
+ .data.__malloc_sbrk_base
+                0x28f0b064        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b064                __malloc_sbrk_base
+                0x28f0b068                . = ALIGN (0x4)
+                0x28f0b068                _edata = .
+                0x28f0b068                PROVIDE (edata, .)
+
+.bss            0x28f0b068      0x8d8
+                0x28f0b068                __bss_start = .
+                0x28f0b068                __bss_start__ = .
+ *(.bss)
+ .bss           0x28f0b068        0x0 lcpu___pgm.o
+ .bss           0x28f0b068        0x0 all.src-gen.o
+ .bss           0x28f0b068        0x0 all.dt.o
+ .bss           0x28f0b068        0x0 all.res.o
+ .bss           0x28f0b068        0x0 all.res.pt.o
+ .bss           0x28f0b068        0x8 LC3GV_EPDB.o
+                0x28f0b068                LC_GV_CCED
+ .bss           0x28f0b070        0x0 LC3AppInfo.o
+ .bss           0x28f0b070        0x0 LC3GV.o
+ .bss           0x28f0b070        0x0 all.sys-gen.o
+ .bss           0x28f0b070        0x1 MBRTMain.o
+ .bss           0x28f0b071        0x0 LCAPI_GenCode.o
+ .bss           0x28f0b071        0x0 InstData.o
+ .bss           0x28f0b071        0x0 SBTCodeInfo.o
+ *fill*         0x28f0b071        0x3 00
+ .bss           0x28f0b074        0x0 SBTRainbowIOExtension.o
+ .bss           0x28f0b074        0x0 SBTRainbowModbus.o
+ .bss           0x28f0b074        0x0 SBTRainbowPLLink.o
+ .bss           0x28f0b074        0x0 SBTRainbowPersStorage.o
+ .bss           0x28f0b074        0x0 WriteSecurity.o
+ .bss           0x28f0b074        0x0 util.o
+ .bss           0x28f0b074        0x4 GNUInit.o
+ .bss           0x28f0b078        0x0 SBTDummy.o
+ .bss           0x28f0b078        0x0 SBTFunctionExport.o
+ .bss           0x28f0b078        0x0 SBTInstanceSupport.o
+ .bss           0x28f0b078        0x0 SBTPLCWrapper.o
+ .bss           0x28f0b078        0x0 PilTestSupport.o
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_dvmd_tls.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixunsdfsi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x28f0b078        0x0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+ *(COMMON)
+ COMMON         0x28f0b078      0x794 all.res.o
+                0x28f0b078                LC_ProgramInstanceData_PGM
+                0x28f0b7cc                LC_TASK_StringStackBuffer_DEFAULTTASK
+ COMMON         0x28f0b80c       0x30 LC3GV.o
+                0x28f0b80c                g_LC3_GVInstanceData
+ COMMON         0x28f0b83c      0x100 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+                0x28f0b83c                __hexdig
+ COMMON         0x28f0b93c        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+                0x28f0b93c                errno
+
+.bss._PathLocale
+                0x28f0b940        0x4
+ .bss._PathLocale
+                0x28f0b940        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f0b940                _PathLocale
+
+.bss.__nlocale_changed
+                0x28f0b944        0x4
+ .bss.__nlocale_changed
+                0x28f0b944        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f0b944                __nlocale_changed
+
+.bss.__mlocale_changed
+                0x28f0b948        0x4
+ .bss.__mlocale_changed
+                0x28f0b948        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+                0x28f0b948                __mlocale_changed
+
+.bss.__malloc_max_total_mem
+                0x28f0b94c        0x4
+ .bss.__malloc_max_total_mem
+                0x28f0b94c        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b94c                __malloc_max_total_mem
+
+.bss.__malloc_max_sbrked_mem
+                0x28f0b950        0x4
+ .bss.__malloc_max_sbrked_mem
+                0x28f0b950        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b950                __malloc_max_sbrked_mem
+
+.bss.__malloc_top_pad
+                0x28f0b954        0x4
+ .bss.__malloc_top_pad
+                0x28f0b954        0x4 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b954                __malloc_top_pad
+
+.bss.__malloc_current_mallinfo
+                0x28f0b958       0x28
+ .bss.__malloc_current_mallinfo
+                0x28f0b958       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+                0x28f0b958                __malloc_current_mallinfo
+                0x28f0b980                . = ALIGN (0x4)
+                0x28f0b980                __bss_end__ = .
+                0x28f0b980                __bss_end__ = .
+                0x28f0b980                _end = .
+                0x28f0b980                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x70
+ *(.comment)
+ .comment       0x00000000       0x70 lcpu___pgm.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 all.src-gen.o
+ .comment       0x00000000       0x71 all.dt.o
+ .comment       0x00000000       0x71 all.res.o
+ .comment       0x00000000       0x71 all.res.pt.o
+ .comment       0x00000000       0x71 LC3GV_EPDB.o
+ .comment       0x00000000       0x71 LC3AppInfo.o
+ .comment       0x00000000       0x71 LC3GV.o
+ .comment       0x00000000       0x71 all.sys-gen.o
+ .comment       0x00000000       0x71 MBRTMain.o
+ .comment       0x00000000       0x71 LCAPI_GenCode.o
+ .comment       0x00000000       0x71 InstData.o
+ .comment       0x00000000       0x71 SBTCodeInfo.o
+ .comment       0x00000000       0x71 SBTRainbowIOExtension.o
+ .comment       0x00000000       0x71 SBTRainbowModbus.o
+ .comment       0x00000000       0x71 SBTRainbowPLLink.o
+ .comment       0x00000000       0x71 SBTRainbowPersStorage.o
+ .comment       0x00000000       0x71 WriteSecurity.o
+ .comment       0x00000000       0x71 util.o
+ .comment       0x00000000       0x71 GNUInit.o
+ .comment       0x00000000       0x71 SBTDummy.o
+ .comment       0x00000000       0x71 SBTFunctionExport.o
+ .comment       0x00000000       0x71 SBTInstanceSupport.o
+ .comment       0x00000000       0x71 SBTPLCWrapper.o
+ .comment       0x00000000       0x71 PilTestSupport.o
+
+.ARM.attributes
+                0x00000000       0x36
+ .ARM.attributes
+                0x00000000       0x35 lcpu___pgm.o
+ .ARM.attributes
+                0x00000035       0x35 all.src-gen.o
+ .ARM.attributes
+                0x0000006a       0x35 all.dt.o
+ .ARM.attributes
+                0x0000009f       0x35 all.res.o
+ .ARM.attributes
+                0x000000d4       0x35 all.res.pt.o
+ .ARM.attributes
+                0x00000109       0x35 LC3GV_EPDB.o
+ .ARM.attributes
+                0x0000013e       0x35 LC3AppInfo.o
+ .ARM.attributes
+                0x00000173       0x35 LC3GV.o
+ .ARM.attributes
+                0x000001a8       0x35 all.sys-gen.o
+ .ARM.attributes
+                0x000001dd       0x35 MBRTMain.o
+ .ARM.attributes
+                0x00000212       0x35 LCAPI_GenCode.o
+ .ARM.attributes
+                0x00000247       0x35 InstData.o
+ .ARM.attributes
+                0x0000027c       0x35 SBTCodeInfo.o
+ .ARM.attributes
+                0x000002b1       0x35 SBTRainbowIOExtension.o
+ .ARM.attributes
+                0x000002e6       0x35 SBTRainbowModbus.o
+ .ARM.attributes
+                0x0000031b       0x35 SBTRainbowPLLink.o
+ .ARM.attributes
+                0x00000350       0x35 SBTRainbowPersStorage.o
+ .ARM.attributes
+                0x00000385       0x35 WriteSecurity.o
+ .ARM.attributes
+                0x000003ba       0x35 util.o
+ .ARM.attributes
+                0x000003ef       0x35 GNUInit.o
+ .ARM.attributes
+                0x00000424       0x35 SBTDummy.o
+ .ARM.attributes
+                0x00000459       0x35 SBTFunctionExport.o
+ .ARM.attributes
+                0x0000048e       0x35 SBTInstanceSupport.o
+ .ARM.attributes
+                0x000004c3       0x35 SBTPLCWrapper.o
+ .ARM.attributes
+                0x000004f8       0x35 PilTestSupport.o
+ .ARM.attributes
+                0x0000052d       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000551       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000575       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000599       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+ .ARM.attributes
+                0x000005cf       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+ .ARM.attributes
+                0x00000605       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+ .ARM.attributes
+                0x0000063b       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+ .ARM.attributes
+                0x00000671       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000006a7       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000006cb       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000006ef       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixunsdfsi.o)
+ .ARM.attributes
+                0x00000713       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000749       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000077f       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+ .ARM.attributes
+                0x000007b5       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+ .ARM.attributes
+                0x000007eb       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+ .ARM.attributes
+                0x00000821       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+ .ARM.attributes
+                0x00000857       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .ARM.attributes
+                0x0000088d       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+ .ARM.attributes
+                0x000008c3       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x000008f9       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x0000092f       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x00000965       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x0000099b       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x000009d1       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x00000a07       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000a3d       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000a73       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000aa9       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000adf       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000b15       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+ .ARM.attributes
+                0x00000b4b       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+ .ARM.attributes
+                0x00000b81       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+ .ARM.attributes
+                0x00000bb7       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+ .ARM.attributes
+                0x00000bed       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x00000c23       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000c59       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x00000c8f       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+ .ARM.attributes
+                0x00000cc5       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000cfb       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000d31       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+ .ARM.attributes
+                0x00000d67       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000d9d       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000dd3       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000e09       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x00000e3f       0x36 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000e75       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000e99       0x24 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_arm_truncdfsf2.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x2e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 lcpu___pgm.o
+ .debug_aranges
+                0x00000020       0x20 all.src-gen.o
+ .debug_aranges
+                0x00000040       0x20 all.dt.o
+ .debug_aranges
+                0x00000060       0x20 all.res.o
+ .debug_aranges
+                0x00000080       0x20 all.res.pt.o
+ .debug_aranges
+                0x000000a0       0x18 LC3GV_EPDB.o
+ .debug_aranges
+                0x000000b8       0x20 LC3AppInfo.o
+ .debug_aranges
+                0x000000d8       0x20 LC3GV.o
+ .debug_aranges
+                0x000000f8       0x20 all.sys-gen.o
+ .debug_aranges
+                0x00000118       0x20 MBRTMain.o
+ .debug_aranges
+                0x00000138       0x20 LCAPI_GenCode.o
+ .debug_aranges
+                0x00000158       0x20 InstData.o
+ .debug_aranges
+                0x00000178       0x20 SBTCodeInfo.o
+ .debug_aranges
+                0x00000198       0x20 SBTRainbowIOExtension.o
+ .debug_aranges
+                0x000001b8       0x18 SBTRainbowModbus.o
+ .debug_aranges
+                0x000001d0       0x20 SBTRainbowPLLink.o
+ .debug_aranges
+                0x000001f0       0x20 SBTRainbowPersStorage.o
+ .debug_aranges
+                0x00000210       0x20 WriteSecurity.o
+ .debug_aranges
+                0x00000230       0x20 GNUInit.o
+ .debug_aranges
+                0x00000250       0x20 SBTDummy.o
+ .debug_aranges
+                0x00000270       0x18 SBTFunctionExport.o
+ .debug_aranges
+                0x00000288       0x20 SBTInstanceSupport.o
+ .debug_aranges
+                0x000002a8       0x20 SBTPLCWrapper.o
+ .debug_aranges
+                0x000002c8       0x20 PilTestSupport.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x17326
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x2099 lcpu___pgm.o
+ .debug_info    0x00002099     0x2b9b all.src-gen.o
+ .debug_info    0x00004c34     0x398b all.dt.o
+ .debug_info    0x000085bf     0x24f1 all.res.o
+ .debug_info    0x0000aab0     0x2145 all.res.pt.o
+ .debug_info    0x0000cbf5      0x8d4 LC3GV_EPDB.o
+ .debug_info    0x0000d4c9      0x127 LC3AppInfo.o
+ .debug_info    0x0000d5f0      0x861 LC3GV.o
+ .debug_info    0x0000de51     0x365d all.sys-gen.o
+ .debug_info    0x000114ae     0x15be MBRTMain.o
+ .debug_info    0x00012a6c      0xd7e LCAPI_GenCode.o
+ .debug_info    0x000137ea     0x1cd3 InstData.o
+ .debug_info    0x000154bd      0x1d4 SBTCodeInfo.o
+ .debug_info    0x00015691      0x24d SBTRainbowIOExtension.o
+ .debug_info    0x000158de      0x11a SBTRainbowModbus.o
+ .debug_info    0x000159f8      0x1ea SBTRainbowPLLink.o
+ .debug_info    0x00015be2       0xec SBTRainbowPersStorage.o
+ .debug_info    0x00015cce      0x2a5 WriteSecurity.o
+ .debug_info    0x00015f73      0x1aa GNUInit.o
+ .debug_info    0x0001611d       0xcf SBTDummy.o
+ .debug_info    0x000161ec      0x170 SBTFunctionExport.o
+ .debug_info    0x0001635c      0x71b SBTInstanceSupport.o
+ .debug_info    0x00016a77      0x825 SBTPLCWrapper.o
+ .debug_info    0x0001729c       0x8a PilTestSupport.o
+
+.debug_abbrev   0x00000000     0x1e17
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x151 lcpu___pgm.o
+ .debug_abbrev  0x00000151      0x253 all.src-gen.o
+ .debug_abbrev  0x000003a4       0xfe all.dt.o
+ .debug_abbrev  0x000004a2      0x1a3 all.res.o
+ .debug_abbrev  0x00000645      0x199 all.res.pt.o
+ .debug_abbrev  0x000007de      0x112 LC3GV_EPDB.o
+ .debug_abbrev  0x000008f0       0xa0 LC3AppInfo.o
+ .debug_abbrev  0x00000990      0x13f LC3GV.o
+ .debug_abbrev  0x00000acf      0x393 all.sys-gen.o
+ .debug_abbrev  0x00000e62      0x31a MBRTMain.o
+ .debug_abbrev  0x0000117c      0x1f8 LCAPI_GenCode.o
+ .debug_abbrev  0x00001374       0xff InstData.o
+ .debug_abbrev  0x00001473       0xb3 SBTCodeInfo.o
+ .debug_abbrev  0x00001526       0xc3 SBTRainbowIOExtension.o
+ .debug_abbrev  0x000015e9       0x8b SBTRainbowModbus.o
+ .debug_abbrev  0x00001674       0xba SBTRainbowPLLink.o
+ .debug_abbrev  0x0000172e       0x6e SBTRainbowPersStorage.o
+ .debug_abbrev  0x0000179c       0xaf WriteSecurity.o
+ .debug_abbrev  0x0000184b       0xe5 GNUInit.o
+ .debug_abbrev  0x00001930       0xc1 SBTDummy.o
+ .debug_abbrev  0x000019f1       0xa7 SBTFunctionExport.o
+ .debug_abbrev  0x00001a98      0x14c SBTInstanceSupport.o
+ .debug_abbrev  0x00001be4      0x1ba SBTPLCWrapper.o
+ .debug_abbrev  0x00001d9e       0x79 PilTestSupport.o
+
+.debug_line     0x00000000     0x7aa4
+ *(.debug_line)
+ .debug_line    0x00000000      0x66b lcpu___pgm.o
+ .debug_line    0x0000066b     0x15cf all.src-gen.o
+ .debug_line    0x00001c3a     0x11a4 all.dt.o
+ .debug_line    0x00002dde      0x7e3 all.res.o
+ .debug_line    0x000035c1      0x749 all.res.pt.o
+ .debug_line    0x00003d0a      0x3ca LC3GV_EPDB.o
+ .debug_line    0x000040d4      0x1cd LC3AppInfo.o
+ .debug_line    0x000042a1      0x3cb LC3GV.o
+ .debug_line    0x0000466c      0xc94 all.sys-gen.o
+ .debug_line    0x00005300      0x75b MBRTMain.o
+ .debug_line    0x00005a5b      0x3bd LCAPI_GenCode.o
+ .debug_line    0x00005e18      0x33b InstData.o
+ .debug_line    0x00006153      0x15c SBTCodeInfo.o
+ .debug_line    0x000062af      0x312 SBTRainbowIOExtension.o
+ .debug_line    0x000065c1      0x2d9 SBTRainbowModbus.o
+ .debug_line    0x0000689a      0x2e8 SBTRainbowPLLink.o
+ .debug_line    0x00006b82      0x164 SBTRainbowPersStorage.o
+ .debug_line    0x00006ce6      0x131 WriteSecurity.o
+ .debug_line    0x00006e17        0x0 util.o
+ .debug_line    0x00006e17      0x109 GNUInit.o
+ .debug_line    0x00006f20       0xb8 SBTDummy.o
+ .debug_line    0x00006fd8      0x270 SBTFunctionExport.o
+ .debug_line    0x00007248      0x37c SBTInstanceSupport.o
+ .debug_line    0x000075c4      0x421 SBTPLCWrapper.o
+ .debug_line    0x000079e5       0xbf PilTestSupport.o
+
+.debug_frame    0x00000000     0x1948
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c lcpu___pgm.o
+ .debug_frame   0x0000002c       0xe8 all.src-gen.o
+ .debug_frame   0x00000114      0x380 all.dt.o
+ .debug_frame   0x00000494       0xa0 all.res.o
+ .debug_frame   0x00000534       0x48 all.res.pt.o
+ .debug_frame   0x0000057c       0x20 LC3AppInfo.o
+ .debug_frame   0x0000059c       0x20 LC3GV.o
+ .debug_frame   0x000005bc      0x3a8 all.sys-gen.o
+ .debug_frame   0x00000964      0x1e4 MBRTMain.o
+ .debug_frame   0x00000b48      0x1d8 LCAPI_GenCode.o
+ .debug_frame   0x00000d20       0x2c InstData.o
+ .debug_frame   0x00000d4c       0x60 SBTCodeInfo.o
+ .debug_frame   0x00000dac       0x20 SBTRainbowIOExtension.o
+ .debug_frame   0x00000dcc       0x20 SBTRainbowPLLink.o
+ .debug_frame   0x00000dec       0x28 SBTRainbowPersStorage.o
+ .debug_frame   0x00000e14       0x20 WriteSecurity.o
+ .debug_frame   0x00000e34       0x50 GNUInit.o
+ .debug_frame   0x00000e84       0x2c SBTDummy.o
+ .debug_frame   0x00000eb0       0x30 SBTInstanceSupport.o
+ .debug_frame   0x00000ee0       0x4c SBTPLCWrapper.o
+ .debug_frame   0x00000f2c       0x28 PilTestSupport.o
+ .debug_frame   0x00000f54       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixsfdi.o)
+ .debug_frame   0x00000f7c       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixdfdi.o)
+ .debug_frame   0x00000fa8       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunssfdi.o)
+ .debug_frame   0x00000fd4       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_fixunsdfdi.o)
+ .debug_frame   0x00001000       0x50 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(bpabi.o)
+ .debug_frame   0x00001050       0x34 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_divdi3.o)
+ .debug_frame   0x00001084       0x34 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a(_udivdi3.o)
+ .debug_frame   0x000010b8       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_modf.o)
+ .debug_frame   0x000010e8       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_modf.o)
+ .debug_frame   0x00001110       0x38 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-w_fmod.o)
+ .debug_frame   0x00001148       0x38 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-wf_fmod.o)
+ .debug_frame   0x00001180       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-e_fmod.o)
+ .debug_frame   0x000011b0       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-ef_fmod.o)
+ .debug_frame   0x000011dc       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x000011fc       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x0000121c       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x0000123c       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-errno.o)
+ .debug_frame   0x0000125c       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-init.o)
+ .debug_frame   0x0000128c       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memmove.o)
+ .debug_frame   0x000012bc       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memset.o)
+ .debug_frame   0x000012e8       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00001308       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncasecmp.o)
+ .debug_frame   0x00001334       0x78 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strtod.o)
+ .debug_frame   0x000013ac       0x6c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-gethex.o)
+ .debug_frame   0x00001418       0x38 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-gdtoa-hexnan.o)
+ .debug_frame   0x00001450       0xa0 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-locale.o)
+ .debug_frame   0x000014f0       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00001520      0x234 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mprec.o)
+ .debug_frame   0x00001754       0x20 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sf_nan.o)
+ .debug_frame   0x00001774       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strcmp.o)
+ .debug_frame   0x000017a4       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-strncmp.o)
+ .debug_frame   0x000017d0       0x28 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-callocr.o)
+ .debug_frame   0x000017f8       0x38 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00001830       0x30 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-mlock.o)
+ .debug_frame   0x00001860       0x2c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000188c       0x50 C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-freer.o)
+ .debug_frame   0x000018dc       0x6c C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a(lib_a-reent.o)
+
+.debug_str      0x00000000     0x5f82
+ *(.debug_str)
+ .debug_str     0x00000000     0x18a5 lcpu___pgm.o
+                               0x1c92 (size before relaxing)
+ .debug_str     0x000018a5      0x43d all.src-gen.o
+                               0x2058 (size before relaxing)
+ .debug_str     0x00001ce2     0x11ef all.dt.o
+                               0x15b3 (size before relaxing)
+ .debug_str     0x00002ed1      0x430 all.res.o
+                               0x2078 (size before relaxing)
+ .debug_str     0x00003301       0x7c all.res.pt.o
+                               0x1cd3 (size before relaxing)
+ .debug_str     0x0000337d       0x62 LC3GV_EPDB.o
+                                0x89e (size before relaxing)
+ .debug_str     0x000033df       0xf3 LC3AppInfo.o
+                                0x1d6 (size before relaxing)
+ .debug_str     0x000034d2       0x5d LC3GV.o
+                                0x7f2 (size before relaxing)
+ .debug_str     0x0000352f      0x97c all.sys-gen.o
+                               0x1ec9 (size before relaxing)
+ .debug_str     0x00003eab      0x595 MBRTMain.o
+                                0xd0e (size before relaxing)
+ .debug_str     0x00004440      0x3db LCAPI_GenCode.o
+                                0x9ab (size before relaxing)
+ .debug_str     0x0000481b      0xcd0 InstData.o
+                                0xeb4 (size before relaxing)
+ .debug_str     0x000054eb       0xf0 SBTCodeInfo.o
+                                0x1ef (size before relaxing)
+ .debug_str     0x000055db       0xf2 SBTRainbowIOExtension.o
+                                0x260 (size before relaxing)
+ .debug_str     0x000056cd       0x87 SBTRainbowModbus.o
+                                0x1a5 (size before relaxing)
+ .debug_str     0x00005754       0xf1 SBTRainbowPLLink.o
+                                0x231 (size before relaxing)
+ .debug_str     0x00005845       0x9c SBTRainbowPersStorage.o
+                                0x18d (size before relaxing)
+ .debug_str     0x000058e1      0x19b WriteSecurity.o
+                                0x28b (size before relaxing)
+ .debug_str     0x00005a7c       0xef GNUInit.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00005b6b       0xbb SBTDummy.o
+                                0x12a (size before relaxing)
+ .debug_str     0x00005c26       0xeb SBTFunctionExport.o
+                                0x200 (size before relaxing)
+ .debug_str     0x00005d11       0xca SBTInstanceSupport.o
+                                0x691 (size before relaxing)
+ .debug_str     0x00005ddb       0xe4 SBTPLCWrapper.o
+                                0x6f1 (size before relaxing)
+ .debug_str     0x00005ebf       0xc3 PilTestSupport.o
+                                0x137 (size before relaxing)
+
+.debug_loc      0x00000000     0x3d4c
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x5c lcpu___pgm.o
+ .debug_loc     0x0000005c      0x6bf all.src-gen.o
+ .debug_loc     0x0000071b      0xa50 all.dt.o
+ .debug_loc     0x0000116b      0x1b6 all.res.o
+ .debug_loc     0x00001321      0x106 all.res.pt.o
+ .debug_loc     0x00001427       0x21 LC3AppInfo.o
+ .debug_loc     0x00001448       0x3a LC3GV.o
+ .debug_loc     0x00001482     0x11d5 all.sys-gen.o
+ .debug_loc     0x00002657      0xa89 MBRTMain.o
+ .debug_loc     0x000030e0      0x857 LCAPI_GenCode.o
+ .debug_loc     0x00003937       0x20 InstData.o
+ .debug_loc     0x00003957       0x21 SBTRainbowIOExtension.o
+ .debug_loc     0x00003978       0x21 SBTRainbowPLLink.o
+ .debug_loc     0x00003999       0x20 SBTRainbowPersStorage.o
+ .debug_loc     0x000039b9       0x21 WriteSecurity.o
+ .debug_loc     0x000039da       0xb4 GNUInit.o
+ .debug_loc     0x00003a8e       0x41 SBTDummy.o
+ .debug_loc     0x00003acf       0xc8 SBTInstanceSupport.o
+ .debug_loc     0x00003b97      0x14c SBTPLCWrapper.o
+ .debug_loc     0x00003ce3       0x69 PilTestSupport.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+START GROUP
+LOAD lcpu___pgm.o
+LOAD all.src-gen.o
+LOAD all.dt.o
+LOAD all.res.o
+LOAD all.res.pt.o
+LOAD LC3GV_EPDB.o
+LOAD LC3AppInfo.o
+LOAD LC3GV.o
+LOAD all.sys-gen.o
+LOAD MBRTMain.o
+LOAD LCAPI_GenCode.o
+LOAD InstData.o
+LOAD SBTCodeInfo.o
+LOAD SBTRainbowIOExtension.o
+LOAD SBTRainbowModbus.o
+LOAD SBTRainbowPLLink.o
+LOAD SBTRainbowPersStorage.o
+LOAD WriteSecurity.o
+LOAD util.o
+LOAD GNUInit.o
+LOAD SBTDummy.o
+LOAD SBTFunctionExport.o
+LOAD SBTInstanceSupport.o
+LOAD SBTPLCWrapper.o
+LOAD PilTestSupport.o
+LOAD C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu\libgcc.a
+LOAD C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libm.a
+LOAD C:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu\libc.a
+END GROUP
+OUTPUT(clxC600 elf32-littlearm)
+
+.debug_ranges   0x00000000      0x408
+ .debug_ranges  0x00000000      0x338 all.src-gen.o
+ .debug_ranges  0x00000338       0x48 all.sys-gen.o
+ .debug_ranges  0x00000380       0x70 MBRTMain.o
+ .debug_ranges  0x000003f0       0x18 SBTPLCWrapper.o

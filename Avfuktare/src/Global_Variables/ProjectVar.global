@@ -1,0 +1,8 @@
+GLOBALS ProjectVar
+
+	// Project template global variables
+	VAR_GLOBAL
+
+	END_VAR
+
+END_GLOBALS

@@ -1,0 +1,242 @@
+{
+  "rules": [
+    {
+      "ruleId": {
+        "id": "ModelRuleForbiddenAccessOfLocalVariable",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "INFO",
+            "WARNING"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "NORMAL",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": false,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleSingleResource",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "INFO",
+            "WARNING"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "FAST",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": true,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleDirectLinesAcrossPages",
+        "namespace": "com.logicals.iec.fbd.validation"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "WARNING",
+            "INFO"
+          ],
+          "value": "WARNING",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "NORMAL",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": false,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleConnectorMustHaveSource",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "INFO",
+            "WARNING"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "FAST",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": true,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleFunctionBlockOutputToVarInOut",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "WARNING",
+            "INFO"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "NORMAL",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": false,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleForbiddenInputAssignment",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "INFO",
+            "WARNING"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "FAST",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": false,
+          "overridable": true
+        }
+      }
+    },
+    {
+      "ruleId": {
+        "id": "ModelRuleRefVarsInFunctions",
+        "namespace": "com.logicals.mrc.rules"
+      },
+      "overrideValues": {
+        "severity": {
+          "allowedValues": [
+            "ERROR",
+            "INFO",
+            "WARNING"
+          ],
+          "value": "ERROR",
+          "overridable": true
+        },
+        "checkType": {
+          "allowedValues": [
+            "FAST",
+            "NORMAL",
+            "EXPENSIVE"
+          ],
+          "value": "FAST",
+          "overridable": true
+        },
+        "activeState": {
+          "allowedValues": [
+            true,
+            false
+          ],
+          "value": false,
+          "overridable": true
+        }
+      }
+    }
+  ]
+}

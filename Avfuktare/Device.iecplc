@@ -1,0 +1,23 @@
+{
+  CHANNEL GatewayChannel
+
+    TCP
+      ADDRESS := 127.0.0.1;
+      PORT := 1535;
+    END_TCP
+
+  END_CHANNEL
+}
+{
+	TARGET clxC600Target1
+		PARAMS := "{'CommSettings':{'CommunicationKind':'KindUsb','InterfaceType':'USB','InterfaceParameter':'POL648_CAC821','Authentication':'93198c242b10658456bc0b20f49cd1cb','TargetType':'28'},'IoExtensionSettings':{'IoExtensions':''},'CodeGenSettings':{'CreateLargeApp':false,'FormatFileSystem':false,'CreateFactoryApp':false,'AppUUID':'00000000-0000-0000-0000-000000000000','MBUpgradeDir':'','ChangeLogUUID':'00000000-0000-0000-0000-000000000000','EraseObjectStore':false,'DisableSigning':false}}";
+	END_TARGET
+}
+CONFIGURATION Device
+  RESOURCE POL6x8 ON clxC600 { ON_TARGET := clxC600Target1, VIA_CHANNEL := GatewayChannel }
+    {INCLUDE_GLOBALS IO_Var}
+    TASK DefaultTask(INTERVAL := TIME#1ms, PRIORITY := 38229);
+    PROGRAM Pgm WITH DefaultTask:
+			Pgm;
+  END_RESOURCE
+END_CONFIGURATION

@@ -1,0 +1,24 @@
+FUNCTION_BLOCK FB_AnyTrue3  {
+    expandableGUI;
+    safeStyle;
+    width := 160;
+  }
+    VAR_INPUT
+        In1 : BOOL;
+        In2 : BOOL;
+        In3 : BOOL;
+    END_VAR
+
+    VAR_OUTPUT
+        Out : BOOL;
+    END_VAR
+
+    // Default
+    Out := FALSE;
+
+    // Om någon är TRUE -> Out TRUE
+    IF In1 OR In2 OR In3 THEN
+        Out := TRUE;
+    END_IF;
+
+END_FUNCTION_BLOCK

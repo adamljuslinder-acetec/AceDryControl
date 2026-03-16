@@ -1,0 +1,34 @@
+FUNCTION_BLOCK FB_TwoChannelSelect
+
+    VAR_INPUT
+        EnA   : BOOL;   // Enable för kanal A
+        EnB   : BOOL;   // Enable för kanal B
+        A_Val1 : REAL;  // Värde 1 för kanal A
+        A_Val2 : REAL;  // Värde 2 för kanal A
+        B_Val1 : REAL;  // Värde 1 för kanal B
+        B_Val2 : REAL;  // Värde 2 för kanal B
+    END_VAR
+
+    VAR_OUTPUT
+        OutVal1 : REAL; // Valt värde 1
+        OutVal2 : REAL; // Valt värde 2
+    END_VAR
+
+    // Default
+    OutVal1 := 0.0;
+    OutVal2 := 0.0;
+
+    // Prioritet: A först, annars B, annars default
+    IF EnA THEN
+        OutVal1 := A_Val1;
+        OutVal2 := A_Val2;
+    ELSIF EnB THEN
+        OutVal1 := B_Val1;
+        OutVal2 := B_Val2;
+    ELSE
+        // Ingen enable -> behåll default (0.0 / 0.0)
+        OutVal1 := 0.0;
+        OutVal2 := 0.0;
+    END_IF;
+
+END_FUNCTION_BLOCK

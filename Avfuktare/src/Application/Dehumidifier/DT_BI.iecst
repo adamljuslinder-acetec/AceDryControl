@@ -1,0 +1,9 @@
+TYPE
+  {KeepElementOrder}
+  DT_BI :
+    STRUCT
+      DI1 : BOOL { description := "Digital input 1"; };
+      DI2 : BOOL { description := "Digital input 2"; };
+      Fire : BOOL { description := "Fire alarm"; };
+    END_STRUCT;
+END_TYPE

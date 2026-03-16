@@ -1,0 +1,113 @@
+FUNCTION_BLOCK aoHWIO
+  {
+    altName := "";
+    instanceName := {visible, position := "manual", x := 0, y := 20, width := 240, height := 19, bgColor := "white", fgColor := "black"};
+    bgColor := "#FFFF80";
+    ioFgColor := "black";
+    width := 240;
+    height := 58;
+    minWidth := 240;
+    minHeight := 58;
+    maxWidth := 240;
+    maxHeight := 78;
+    expandableGUI;
+    pageSize := "1340x950";
+    inputValueFieldAreaWidth := 160;
+    outputValueFieldAreaWidth := 160;
+    commentFields := {{x := 0, y := 0, width := 240, height := 19, text := "{dataType}", bgColor := "#FF8040", fgColor := "black"}};
+  }
+
+  VAR
+    pInitData : DWORD;
+    Stop : BOOL;
+    POL6x8 : aoPOL6x8 := (aoPOL6x8_InstanceData := (InstanceName := '\C', Type1 := 4, Type2 := 7, Type3 := 3, Type4 := 3, Type5 := 10, Type6 := 10, Type7 := 10, Type8 := 10, Type9 := 0, TypeDI2 := 1));
+    UUID_681C67F2_3CFB_4F9F_9D07_B0F256D63FF1 : ForceMrk;
+    UUID_4656E6F0_1858_4B66_A8B5_CC6028E5E4CA : ForceMrk;
+  END_VAR
+  VAR { instanceParam } { noCodeGeneration }
+    aoHWIO_InstanceData : aoUnit_InstanceData;
+  END_VAR
+  VAR_OUTPUT
+    DB : UINT;
+  END_VAR
+  VAR_EXTERNAL
+    g_AI : DT_AI;
+    g_AO : DT_AO;
+  END_VAR
+
+  (*
+
+    // Network 1:
+    POL6x8(XO5 := g_AO.XO5, XO6 := g_AO.XO6, XO7 := g_AO.XO7, XO8 := g_AO.XO8, XI1 => g_AI.XI1, RelX1 => g_AI.XI1rel, XI2 => g_AI.XI2, RelX2 => g_AI.XI2rel, XI3 => g_AI.XI3, RelX3 => g_AI.XI3rel, XI4 => g_AI.XI4, RelX4 => g_AI.XI4rel);
+    UUID_681C67F2_3CFB_4F9F_9D07_B0F256D63FF1(IN := POL6x8.DI1);
+    UUID_4656E6F0_1858_4B66_A8B5_CC6028E5E4CA(IN := POL6x8.DI2);
+
+  *)
+
+  @VF(104) : @E(g_AI.XI2rel), @R(1180.0, -820.0, 160.0, 19.0);
+  @VF(112) : @E(g_AI.XI2), @R(1180.0, -840.0, 160.0, 19.0);
+  @VF(113) : @E(g_AI.XI3), @R(1180.0, -800.0, 160.0, 19.0);
+  @VF(116) : @E(g_AI.XI1rel), @R(1180.0, -860.0, 160.0, 19.0);
+  @VF(117) : @E(g_AI.XI1), @R(1180.0, -880.0, 160.0, 19.0);
+  @VF(118) : @E(g_AI.XI3rel), @R(1180.0, -780.0, 160.0, 19.0);
+  @C(115) : @FB(UUID_681C67F2_3CFB_4F9F_9D07_B0F256D63FF1), @R(860.0, -560.0, 20.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @C(105) : @FB(POL6x8), instanceNameVisible, @R(540.0, -940.0, 240.0, 898.0), @I(@N(XO1), @L(69.5)), @I(@N(XO2), @L(109.5)), @I(@N(XO3), @L(149.5)), @I(@N(XO4), @L(189.5)), @I(@N(XO5), @L(229.5)), @I(@N(XO6), @L(269.5)), @I(@N(XO7), @L(309.5)), @I(@N(XO8), @L(349.5)), @I(@N(DO1), @L(389.5)), @I(@N(DO2), @L(409.5)), @I(@N(DO3), @L(449.5)), @I(@N(DO4), @L(469.5)), @I(@N(Group1), @L(489.5)), @I(@N(DO5), @L(509.5)), @I(@N(DO6), @L(529.5)), @I(@N(Group2), @L(549.5)), @I(@N(DO7), @L(569.5)), @I(@N(DO8), @L(589.5)), @I(@N(Group3), @L(609.5)), @I(@N(DO9), @L(629.5)), @I(@N(INV9), @L(649.5)), @I(@N(TP9), @L(669.5)), @I(@N(DO10), @L(689.5)), @I(@N(INV10), @L(709.5)), @I(@N(TP10), @L(729.5)), @I(@N(Group4), @L(749.5)), @I(@N(A_Cmd), @L(829.5)), @I(@N(A_Setpt), @L(849.5)), @I(@N(B_Cmd), @L(869.5)), @I(@N(B_Setpt), @L(889.5)), @O(@N(DB), @R(9.5)), @O(@N(DevRel), @R(49.5)), @O(@N(XI1), @R(69.5)), @O(@N(RelX1), @R(89.5)), @O(@N(XI2), @R(109.5)), @O(@N(RelX2), @R(129.5)), @O(@N(XI3), @R(149.5)), @O(@N(RelX3), @R(169.5)), @O(@N(XI4), @R(189.5)), @O(@N(RelX4), @R(209.5)), @O(@N(XI5), @R(229.5)), @O(@N(RelX5), @R(249.5)), @O(@N(XI6), @R(269.5)), @O(@N(RelX6), @R(289.5)), @O(@N(XI7), @R(309.5)), @O(@N(RelX7), @R(329.5)), @O(@N(XI8), @R(349.5)), @O(@N(RelX8), @R(369.5)), @O(@N(DI1), @R(389.5)), @O(@N(CNT1), @R(409.5)), @O(@N(DI2), @R(429.5)), @O(@N(CNT2), @R(449.5)), @O(@N(DI3), @R(469.5)), @O(@N(CNT3), @R(489.5)), @O(@N(DI4), @R(509.5)), @O(@N(CNT4), @R(529.5)), @O(@N(DI5), @R(549.5)), @O(@N(CNT5), @R(569.5)), @O(@N(DI6), @R(589.5)), @O(@N(CNT6), @R(609.5)), @O(@N(X9), @R(629.5)), @O(@N(CNTX9), @R(649.5)), @O(@N(RelX9), @R(669.5)), @O(@N(X10), @R(689.5)), @O(@N(CNTX10), @R(709.5)), @O(@N(RelX10), @R(729.5)), @O(@N(X11), @R(749.5)), @O(@N(CNTX11), @R(769.5)), @O(@N(RelX11), @R(789.5)), @O(@N(FailSafe), @R(809.5)), @O(@N(A_State), @R(829.5)), @O(@N(A_ActPos), @R(849.5)), @O(@N(B_State), @R(869.5)), @O(@N(B_ActPos), @R(889.5));
+  @C(107) : @FB(UUID_4656E6F0_1858_4B66_A8B5_CC6028E5E4CA), @R(860.0, -520.0, 20.0, 18.0), BOOL, @I(@N(IN), @L(9.5)), @O(@N(OUT), @R(9.5));
+  @VF(2) : @E(g_AO.XO6), @R(0.0, -680.0, 160.0, 19.0);
+  @OLT(5) : @R(200.0, -700.0, 50.0, 19.0), @S(2);
+  @VF(6) : @E(g_AO.XO5), @R(0.0, -720.0, 160.0, 19.0);
+  @OLT(8) : @R(200.0, -750.0, 50.0, 19.0), @S(6);
+  @VF(1) : @E(g_AO.XO7), @R(0.0, -640.0, 160.0, 19.0);
+  @VF(10) : @E(g_AO.XO8), @R(0.0, -600.0, 160.0, 19.0);
+  @OLT(12) : @R(200.0, -660.0, 50.0, 19.0), @S(1);
+  @OLT(13) : @R(200.0, -620.0, 50.0, 19.0), @S(10);
+  @VF(14) : @E(g_AI.XI4), @R(1180.0, -760.0, 160.0, 19.0);
+  @VF(16) : @E(g_AI.XI4rel), @R(1180.0, -740.0, 160.0, 19.0);
+  @OLT(18) : @R(1370.0, -910.0, 140.0, 19.0), @S(117);
+  @OLT(19) : @R(1380.0, -850.0, 140.0, 19.0), @S(112);
+  @OLT(20) : @R(1380.0, -800.0, 140.0, 19.0), @S(113);
+  @OLT(21) : @R(1380.0, -760.0, 140.0, 19.0), @S(14);
+
+  @G(119) :
+     @L(@C(105).RelX2, @VF(104).i)
+    ;
+  @G(122) :
+     @L(@C(105).XI2, @VF(112).i)
+    ;
+  @G(123) :
+     @L(@C(105).XI3, @VF(113).i)
+    ;
+  @G(125) :
+     @L(@C(105).RelX1, @VF(116).i)
+    ;
+  @G(126) :
+     @L(@C(105).XI1, @VF(117).i)
+    ;
+  @G(127) :
+     @L(@C(105).RelX3, @VF(118).i)
+    ;
+  @G(128) :
+     @L(@C(105).DI1, @C(115).IN)
+    ;
+  @G(133) :
+     @L(@C(105).DI2, @C(107).IN)
+    ;
+  @G(4) :
+     @L(@VF(2).o, @C(105).XO6)
+    ;
+  @G(7) :
+     @L(@VF(6).o, @C(105).XO5)
+    ;
+  @G(9) :
+     @L(@VF(1).o, @C(105).XO7)
+    ;
+  @G(11) :
+     @L(@VF(10).o, @C(105).XO8)
+    ;
+  @G(15) :
+     @L(@C(105).XI4, @VF(14).i)
+    ;
+  @G(17) :
+     @L(@C(105).RelX4, @VF(16).i)
+    ;
+END_FUNCTION_BLOCK

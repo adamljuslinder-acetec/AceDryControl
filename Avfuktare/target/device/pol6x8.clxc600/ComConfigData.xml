@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SAPRO>
+  <target>23</target>
+  <kind>KindTcpip</kind>
+  <IfType>TCP</IfType>
+  <IfPar>LOCALHOST,4242</IfPar>
+  <auth>
+  </auth>
+  <localSettings>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Interfacelist&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;Serial&lt;/Name&gt;
+      &lt;Type&gt;COM01&lt;/Type&gt;
+      &lt;Parameter&gt;57600,8,1,N,1&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;Tcpip&lt;/Name&gt;
+      &lt;Type&gt;TCP&lt;/Type&gt;
+      &lt;Parameter&gt;LOCALHOST,4242&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;Modem&lt;/Name&gt;
+      &lt;Type&gt;,SIRA&lt;/Type&gt;
+      &lt;Parameter&gt;+49 ???&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;Konnex&lt;/Name&gt;
+      &lt;Type&gt;KNX&lt;/Type&gt;
+      &lt;Parameter&gt;FFFF;0001&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;KIP&lt;/Name&gt;
+      &lt;Type&gt;KIP&lt;/Type&gt;
+      &lt;Parameter&gt;FFFF;0001;;;192.168.1.1&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;LON&lt;/Name&gt;
+      &lt;Type&gt;LON&lt;/Type&gt;
+      &lt;Parameter&gt;not found;1;0/1/127;0;0/1/1;128;*&lt;/Parameter&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+    &lt;Kind&gt;
+      &lt;Name&gt;USB&lt;/Name&gt;
+      &lt;Type&gt;USB&lt;/Type&gt;
+      &lt;Parameter /&gt;
+      &lt;Authentication /&gt;
+    &lt;/Kind&gt;
+  &lt;/Interfacelist&gt;
+  &lt;RecentMdmNum /&gt;
+  &lt;RecentHosts /&gt;
+&lt;/Settings&gt;</localSettings>
+  <FileType>BIN</FileType>
+</SAPRO>

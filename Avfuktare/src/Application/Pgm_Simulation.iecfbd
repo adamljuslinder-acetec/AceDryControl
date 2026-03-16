@@ -1,0 +1,6 @@
+PROGRAM Pgm_Simulation
+  VAR
+    up : BOOL;
+    count : INT;
+  END_VAR
+END_PROGRAM

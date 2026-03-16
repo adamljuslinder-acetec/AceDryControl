@@ -1,0 +1,44 @@
+rule cc
+  depfile = $out.d
+  deps = gcc
+  command = $COMPILER $INCLUDE_DIRECTORIES $COMPILER_FLAGS -MMD -MT $out -MF $out.d -o $out -c $in
+  description = Building C object $out
+
+rule ccNoOptimize
+  depfile = $out.d
+  deps = gcc
+  command = $COMPILER $INCLUDE_DIRECTORIES $COMPILER_FLAGS_NO_OPTIMIZE -MMD -MT $out -MF $out.d -o $out -c $in
+  description = Building C object without optimization $out
+  
+rule cci
+  depfile = $out.d
+  deps = gcc
+  command = $COMPILER $INCLUDE_DIRECTORIES $COMPILER_FLAGS -x c -MMD -MT $out -MF $out.d -o $out -c $in
+  description = Building C object $out from $i file
+
+rule cxx
+  depfile = $out.d
+  deps = gcc
+  command = $CXX_COMPILER $INCLUDE_DIRECTORIES $CXX_COMPILER_FLAGS -MMD -MT $out -MF $out.d -o $out -c $in
+  description = Building C object $out
+
+rule link
+  command = $LINKER $LINKER_FLAGS -o $TARGET_FILE --start-group @$out.rsp $LINK_DIRECTORIES $LINK_LIBRARIES --end-group
+  description = Linking C shared library $TARGET_FILE
+  restat = $RESTAT
+  rspfile = $out.rsp
+  rspfile_content = $in  
+
+rule lib
+  command = $LIB qc $out $in
+  description = Building Library $out
+
+rule ranlib
+  command = $LIB_INDEX $in
+  description = Building Index for Library $in
+
+rule preprocNoLineStmt
+  depfile = $out.d
+  deps = gcc
+  command = $COMPILER $INCLUDE_DIRECTORIES $COMPILER_FLAGS -E -P -MMD -MT $out -MF $out.d -o $out -c $in
+  description = Preprocessing C object $out

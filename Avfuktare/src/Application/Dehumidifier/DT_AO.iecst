@@ -1,0 +1,10 @@
+TYPE
+  {KeepElementOrder}
+  DT_AO :
+    STRUCT
+      XO5 : DINT { description := "XO5"; };
+      XO6 : DINT { description := "XO6"; };
+      XO7 : DINT { description := "XO7"; };
+      XO8 : DINT { description := "XO8"; };
+    END_STRUCT;
+END_TYPE

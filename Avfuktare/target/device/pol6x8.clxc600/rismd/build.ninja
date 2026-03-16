@@ -1,0 +1,47 @@
+################################
+### logi.CAD3 Ninja build script
+################################
+
+### Hint: This file has been generated automatically and will be overwritten. Do not edit!
+
+ninja_required_version = 1.5
+include rules.ninja
+
+### compile variables
+COMPILER = C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\bin\arm-none-eabi-gcc.exe
+COMPILER_FLAGS_NO_OPTIMIZE = -Os -c -mlong-calls -march=armv7-m -mfpu=fpv4-sp-d16 -mfloat-abi=hard -gdwarf-2 -MD -Wall -mstructure-size-boundary=32 -mthumb -fpcc-struct-return -fshort-enums -DLC_GENERATED=1 -D__WINDOWS__=
+COMPILER_FLAGS = -Os -c -mlong-calls -march=armv7-m -mfpu=fpv4-sp-d16 -mfloat-abi=hard -gdwarf-2 -MD -Wall -mstructure-size-boundary=32 -mthumb -fpcc-struct-return -fshort-enums -DLC_GENERATED=1 -D__WINDOWS__=
+CXX_COMPILER = C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\bin\arm-none-eabi-g++.exe
+CXX_COMPILER_FLAGS = -Os -c -mlong-calls -march=armv7-m -mfpu=fpv4-sp-d16 -mfloat-abi=hard -gdwarf-2 -MD -Wall -mstructure-size-boundary=32 -mthumb -fpcc-struct-return -fshort-enums -DLC_GENERATED=1 -D__WINDOWS__=
+INCLUDE_DIRECTORIES = -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\include" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\api\h" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\api\h\LCAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\api\h\RTSAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\rts" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.ctrl.base_11.78.27.1456\resources\sbt\h" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\nRTS\RTSAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\nRTS\LCAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\uRTS3\RTSAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\uRTS3\LCAPI" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\uRTS3" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\h" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\target\device\pol6x8.clxc600\sys-gen" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\target\device\pol6x8.clxc600\api-gen" -I"C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\h" -I"C$:\Users\adam.ljuslinder\logi.cals\NeuronPowerEngineer\.libcache\ClimatixLib__11.34\INCLUDES" -I"C$:\Users\adam.ljuslinder\logi.cals\NeuronPowerEngineer\.libcache\com.logicals.lc3.library.standard.nonsafe__3.8.0\INCLUDES" -I"C$:\Users\adam.ljuslinder\logi.cals\NeuronPowerEngineer\.libcache\com.logicals.lc3.library.standard__3.9.0\INCLUDES" -I"C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\uRTS3\RTSAPI\RISMD"
+
+### compiler calls
+build allmd.pu.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\allmd.pu.c
+
+build allmd.fu.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\allmd.fu.c
+
+build allmd.sys-gen.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\allmd.sys-gen.c
+
+build allmd.dt.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\allmd.dt.c
+
+build allmd.res-ns.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\allmd.res-ns.c
+
+build mdres___device_pol6x8.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\rismd\mdres___device_pol6x8.c
+
+build RISMDIntegrTypes.o: cc C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.logicals.ptk_3.27.0\API\uRTS3\RTSAPI\RISMD\RISMDIntegrTypes.c
+
+build MDFingerprint.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\MDFingerprint.c
+
+build RISMDRoot.o: cc C$:\Adam\Siemens\Projekt\Avfuktare\Avfuktare\src-gen\device\pol6x8.clxc600\rismd\RISMDRoot.c
+
+build RISMDMain.o: cc C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\metadata\RISMDMain.c
+
+### linker call
+build clxC600.axf: link allmd.pu.o allmd.fu.o allmd.sys-gen.o allmd.dt.o allmd.res-ns.o mdres___device_pol6x8.o RISMDIntegrTypes.o MDFingerprint.o RISMDRoot.o RISMDMain.o
+  LINKER = C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\bin\arm-none-eabi-ld.exe
+  LINKER_FLAGS = -TLink.sct
+  LINK_DIRECTORIES = -L "C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\arm-none-eabi\lib\armv7e-m\fpu" -L "C$:\SBT\ClimatixStudio\Automation-11.78.27.1456\plugins\com.siemens.bt.clx.saprong.ptk.base_11.78.27.1456\resources\gcccm4\lib\gcc\arm-none-eabi\4.7.3\armv7e-m\fpu"
+  LINK_LIBRARIES =
+  TARGET_FILE = clxC600.axf
+
+

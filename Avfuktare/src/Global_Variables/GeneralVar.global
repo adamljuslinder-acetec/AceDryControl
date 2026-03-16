@@ -1,0 +1,10 @@
+GLOBALS GeneralVar
+
+  //General global variables
+  VAR_GLOBAL
+    gReset : BOOL { description := "from any places (all OR)"; };
+    gStupFns : BOOL { description := "Startup finished from Pgm"; };
+    gSysEnableAll : BOOL { description := "System enable all ENO-Support"; };
+  END_VAR
+
+END_GLOBALS

@@ -1,0 +1,35 @@
+FUNCTION_BLOCK FB_ModeSelector  {
+    altName := "ModeSelector";
+    width := 180;
+    instanceName;
+    safeStyle;
+    height := 78;
+    minWidth := 0;
+  }
+	VAR_INPUT
+	    OpMode : UINT;   // 0=Off, 1=Manual, 2=AutoRH, 3=AutoAH
+	END_VAR
+	
+	VAR_OUTPUT
+	    Off    : BOOL;
+	    Manual    : BOOL;
+	    AutoRH  : BOOL;
+	    AutoAH : BOOL;
+	END_VAR
+
+	// Default
+	Off    := FALSE;
+	Manual     := FALSE;
+	AutoRH  := FALSE;
+	AutoAH := FALSE;
+
+    CASE OpMode OF
+        0: Off    := TRUE;
+        1: Manual     := TRUE;
+        2: AutoRH  := TRUE;
+        3: AutoAH := TRUE;
+    ELSE
+        // fail-safe
+        Off := TRUE;
+    END_CASE;
+END_FUNCTION_BLOCK
